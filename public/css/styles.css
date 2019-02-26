@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans');
+h1,h2,h3,h4,h5,h6{
+font-family: 'Lobster', cursive;
+
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  /* overflow: hidden; */
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+nav{
+  background-color:#cc3f0c;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color:#fbfbfb;
+}
+section#bienvenida{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+section#bienvenida h1{
+  border-bottom: 2px solid #39393b;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
