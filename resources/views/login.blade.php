@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="{{ asset('/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{ asset('/css/all.min.css')}}">
     <link rel="stylesheet" href="{{ asset('/css/styles.css')}}">
+    <link rel="stylesheet" href="{{ asset('/css/login.css')}}">
     <link rel="stylesheet" href="{{ asset('/css/jquery.gridder.min.css')}}">
 
   </head>
