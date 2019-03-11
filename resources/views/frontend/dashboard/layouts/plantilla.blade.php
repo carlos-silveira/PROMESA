@@ -16,7 +16,7 @@
 
   <!-- Custom styles for this template-->
   <link href="{{ asset('css/sb-admin-2.css')}}" rel="stylesheet">
-    @yield('estilos')
+    @yield('styles')
 </head>
   <body id="page-top">
     <div id="wrapper">

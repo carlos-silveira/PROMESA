@@ -20,3 +20,6 @@ Route::get('/login', function () {
 Route::get('/portal', function () {
     return view('frontend.dashboard.index');
 });
+Route::get('/portal/alumnos', function () {
+    return view('frontend.dashboard.alumnos');
+});
