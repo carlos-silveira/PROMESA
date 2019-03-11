@@ -10,11 +10,11 @@
     @yield('estilos')
   </head>
   <body>
-    @include('front.layouts.header')
+    @include('frontend.layouts.header')
   <main>
       @yield('container')
   </main>
-  @include('front.layouts.footer')
+  @include('frontend.layouts.footer')
 <script src="{{asset('/js/jquery-3.3.1.min.js')}}"></script>
 <!-- <script src="{{asset('/js/popper.min.js')}}"></script> -->
 <script src="{{asset('/js/bootstrap.min.js')}}"></script>

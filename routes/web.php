@@ -12,8 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('/dashboard/index');
+    return view('index');
 });
 Route::get('/login', function () {
     return view('login');
+});
+Route::get('/portal', function () {
+    return view('frontend.dashboard.index');
 });

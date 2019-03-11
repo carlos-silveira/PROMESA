@@ -1,4 +1,4 @@
-@extends('front.layouts.plantilla',['titulo'=>'Bienvenido: Inicio'])
+@extends('frontend.layouts.plantilla',['titulo'=>'Bienvenido: Inicio'])
 @section('container')
 <!-- <div class="">
   <h1>Working</h1>
