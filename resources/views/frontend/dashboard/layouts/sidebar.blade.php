@@ -36,9 +36,9 @@
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
       <div class="bg-white py-2 collapse-inner rounded">
         <a class="collapse-item" href="{{url ('portal/alumnos')}}">Alumnos</a>
-        <a class="collapse-item" href="cards.html">Aspirantes</a>
-        <a class="collapse-item" href="cards.html">Docentes</a>
-        <a class="collapse-item" href="cards.html">Personal</a>
+        <a class="collapse-item" href="{{url ('portal/alumnos')}}">Aspirantes</a>
+        <a class="collapse-item" href="{{url ('portal/alumnos')}}">Docentes</a>
+        <a class="collapse-item" href="{{url ('portal/alumnos')}}">Personal</a>
       </div>
     </div>
   </li>
