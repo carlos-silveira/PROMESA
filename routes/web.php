@@ -10,12 +10,18 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+// Site Routes
 Route::get('/', function () {
-    return view('index');
+    return view('frontend.site.index');
 });
+
+Route::get('/galeria', function () {
+    return view('frontend.site.gallery');
+});
+
+//Dashboard Routes
 Route::get('/login', function () {
-    return view('login');
+    return view('frontend.dashboard.login');
 });
 Route::get('/portal', function () {
     return view('frontend.dashboard.index');
