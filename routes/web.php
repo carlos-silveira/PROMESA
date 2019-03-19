@@ -29,3 +29,6 @@ Route::get('/portal', function () {
 Route::get('/portal/alumnos', function () {
     return view('frontend.dashboard.alumnos');
 });
+Route::get('/about', function () {
+    return view('frontend.site.about');
+});

@@ -46,8 +46,8 @@
               <li><a href="about.html">About Us</a></li>
               <li><a href="courses.html">Courses</a></li>
               <li><a href="course-single.html">Course Single</a></li>
-              <li><a href="gallery.html">Gallery</a></li>
-              <li class="dropdown-submenu dropdown">
+              <li class="{{Request::is('/galeria'?'active' : '')}}"><a href="{{url('/galeria')}}">Gallery</a></li>
+              <!-- <li class="dropdown-submenu dropdown">
                 <a href="#" data-toggle="dropdown" class="dropdown-toggle"><span>Sub Menu</span></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">Second Level Menu</a></li>
@@ -55,7 +55,7 @@
                   <li><a href="#">Second Level Menu</a></li>
                   <li><a href="#">Second Level Menu</a></li>
                 </ul>
-              </li>
+              </li> -->
               <li><a href="news.html">News</a></li>
             </ul>
           </li>
