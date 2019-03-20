@@ -24,6 +24,24 @@ Route::get('/portal', function () {
 Route::get('/portal/alumnos', function () {
     return view('frontend.dashboard.alumnos');
 });
+Route::get('/portal/aspirantes', function () {
+    return view('frontend.dashboard.aspirantes');
+});
+Route::get('/portal/docentes', function () {
+    return view('frontend.dashboard.docentes');
+});
+Route::get('/portal/personal', function () {
+    return view('frontend.dashboard.personal');
+});
+Route::get('/portal/materias', function () {
+    return view('frontend.dashboard.materias');
+});
+Route::get('/portal/calificaciones', function () {
+    return view('frontend.dashboard.calificaciones');
+});
+Route::get('/portal/grupos', function () {
+    return view('frontend.dashboard.grupos');
+});
 Route::get('/about', function () {
     return view('frontend.site.about');
 });

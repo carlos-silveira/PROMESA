@@ -23,7 +23,7 @@
 
     <script>
 
-        var alumnos = [
+        var aspirantes = [
           {"Matricula":"19CNC001","Nombre":"Ramon","Apellido Paterno":"Perez","Apellido Materno":"Jimenez",
           "Dirección":"Prueba","Telefono":"6361002343"}
         ];
@@ -38,7 +38,7 @@
             sorting: true,
             paging: true,
 
-            data: alumnos,
+            data: aspirantes,
 
             fields: [
                 { name: "Matricula", type: "number",validate: "required"},
@@ -47,7 +47,6 @@
                 { name: "Apellido Materno", type: "text",  validate: "required" },
                 { name: "Dirección", type: "text",  validate: "required" },
                 { name: "Telefono", type: "number",  validate: "required" },
-                { name: "Promedio", type: "number",  validate: "required" },
                 { type: "control" }
             ]
         });

@@ -23,9 +23,8 @@
 
     <script>
 
-        var alumnos = [
-          {"Matricula":"19CNC001","Nombre":"Ramon","Apellido Paterno":"Perez","Apellido Materno":"Jimenez",
-          "Dirección":"Prueba","Telefono":"6361002343"}
+        var calificaciones = [
+          {"ID Calificación":"1","Materia":"Matematicas","Alumno":"Ramon Perez","Calificacion":"10"}
         ];
 
 
@@ -38,16 +37,14 @@
             sorting: true,
             paging: true,
 
-            data: alumnos,
+            data: calificaciones,
 
             fields: [
-                { name: "Matricula", type: "number",validate: "required"},
-                { name: "Nombre", type: "text",validate: "required" },
-                { name: "Apellido Paterno", type: "text",  validate: "required" },
-                { name: "Apellido Materno", type: "text",  validate: "required" },
-                { name: "Dirección", type: "text",  validate: "required" },
-                { name: "Telefono", type: "number",  validate: "required" },
-                { name: "Promedio", type: "number",  validate: "required" },
+                { name: "ID Calificación", type: "number",validate: "required"},
+                { name: "Materia", type: "text",validate: "required" },
+                { name: "Alumno", type: "text",validate: "required" },
+                { name: "Calificacion", type: "text",validate: "required" },
+
                 { type: "control" }
             ]
         });

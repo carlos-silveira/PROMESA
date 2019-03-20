@@ -14,7 +14,7 @@
 
   <!-- Nav Item - Dashboard -->
   <li class="nav-item">
-    <a class="nav-link" href="{{url ('portal')}}">
+    <a class="nav-link "{{Request::is('/'?'active' : '')}}"" href="{{url ('portal')}}">
       <i class="fas fa-home"></i>
       <span>Inicio</span></a>
   </li>
@@ -35,10 +35,10 @@
     </a>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
       <div class="bg-white py-2 collapse-inner rounded">
-        <a class="collapse-item" href="{{url ('portal/alumnos')}}">Alumnos</a>
-        <a class="collapse-item" href="{{url ('portal/alumnos')}}">Aspirantes</a>
-        <a class="collapse-item" href="{{url ('portal/alumnos')}}">Docentes</a>
-        <a class="collapse-item" href="{{url ('portal/alumnos')}}">Personal</a>
+        <a class="collapse-item "{{Request::is('/'?'active' : '')}}"" href="{{url ('portal/alumnos')}}">Alumnos</a>
+        <a class="collapse-item "{{Request::is('/'?'active' : '')}}"" href="{{url ('portal/aspirantes')}}">Aspirantes</a>
+        <a class="collapse-item "{{Request::is('/'?'active' : '')}}"" href="{{url ('portal/alumnos')}}">Docentes</a>
+        <a class="collapse-item "{{Request::is('/'?'active' : '')}}"" href="{{url ('portal/personal')}}">Personal</a>
       </div>
     </div>
   </li>
@@ -46,18 +46,24 @@
 
   <!-- Nav Item - Charts -->
   <li class="nav-item">
-    <a class="nav-link" href="charts.html">
+    <a class="nav-link "{{Request::is('/'?'active' : '')}}"" href="{{url ('portal/materias')}}">
       <i class="fas fa-fw fa-chart-area"></i>
       <span>Materias</span></a>
   </li>
 
   <!-- Nav Item - Tables -->
   <li class="nav-item">
-    <a class="nav-link" href="tables.html">
+    <a class="nav-link "{{Request::is('/'?'active' : '')}}"" href="{{url ('portal/calificaciones')}}">
       <i class="fas fa-fw fa-table"></i>
       <span>Calificaciones</span></a>
   </li>
 
+  <!-- Nav Item - Tables -->
+  <li class="nav-item">
+    <a class="nav-link "{{Request::is('/'?'active' : '')}}"" href="{{url ('portal/grupos')}}">
+      <i class="fas fa-fw fa-table"></i>
+      <span>Grupos</span></a>
+  </li>
   <!-- Divider -->
   <hr class="sidebar-divider d-none d-md-block">
 
