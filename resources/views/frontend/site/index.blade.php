@@ -9,7 +9,7 @@
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                   <div class="probootstrap-slider-text text-center">
-                    <h1 class="probootstrap-heading probootstrap-animate">Tu futuro brillante es nuestra misión</h1>
+                    <h1 class="probootstrap-heading probootstrap-animate">Bienvenidos</h1>
                   </div>
                 </div>
               </div>
@@ -20,7 +20,7 @@
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                   <div class="probootstrap-slider-text text-center">
-                    <h1 class="probootstrap-heading probootstrap-animate">La educacion es vida</h1>
+                    <h1 class="probootstrap-heading probootstrap-animate">Todos buscamos que nuestros hijos lleguen a la cima por eso vamos a cumberes</h1>
                   </div>
                 </div>
               </div>
@@ -132,7 +132,7 @@
         </div>
       </section>
 
-      <section class="probootstrap-section probootstrap-section-colored probootstrap-bg probootstrap-custom-heading probootstrap-tab-section" style="background-image: url(img/slider_2.jpg)">
+      <section class="probootstrap-section probootstrap-section-colored probootstrap-bg probootstrap-custom-heading probootstrap-tab-section" style="background-color: #712180">
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center section-heading probootstrap-animate">

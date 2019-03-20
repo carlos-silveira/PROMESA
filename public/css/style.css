@@ -64,7 +64,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-  color: #582aeb;
+  color: #712180;
   text-decoration: none;
 }
 
@@ -452,10 +452,10 @@ a:hover, a:focus, a:active {
   font-size: 30px;
   text-transform: uppercase;
   background: url(../img/logo.png) no-repeat left 100%;
-  top: 24px;
+  top: 14px;
   position: relative;
-  width: 160px;
-  height: 43px;
+  width: 268px;
+  height: 72px;
   text-indent: -999999px;
   -webkit-transition: .2s all;
   transition: .2s all;
@@ -918,7 +918,7 @@ a:hover, a:focus, a:active {
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
-  background: #51d497;
+  background: #7C7C7E;
 }
 
 .btn.btn-primary:focus, .btn.btn-primary:active {
@@ -967,7 +967,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-section.probootstrap-section-colored {
-  background: #6a41ed;
+  background: #AEA072;
 }
 
 .probootstrap-section.probootstrap-section-colored .section-heading h2 {
@@ -1045,7 +1045,7 @@ a:hover, a:focus, a:active {
 
 .probootstrap-cta {
   padding: 3em 0;
-  background: #6a41ed;
+  background: #712180;
   color: #ffffff;
 }
 
@@ -1100,7 +1100,7 @@ a:hover, a:focus, a:active {
 
 .probootstrap-cta .btn.btn-ghost:hover {
   background: #ffffff;
-  color: #6a41ed;
+  color:  	#712180;
 }
 
 .probootstrap-footer {
@@ -1543,7 +1543,7 @@ a:hover, a:focus, a:active {
 }
 
 .nav-tabs.probootstrap-tabs > li > a:hover, .nav-pills.probootstrap-tabs > li > a:hover {
-  background: #35cd86;
+  background: #7C7C7E;
 }
 
 .nav-tabs.probootstrap-tabs > li > a:active, .nav-tabs.probootstrap-tabs > li > a:focus, .nav-pills.probootstrap-tabs > li > a:active, .nav-pills.probootstrap-tabs > li > a:focus {
@@ -1609,7 +1609,7 @@ a:hover, a:focus, a:active {
   top: -30px;
   -webkit-transition: .3s all;
   transition: .3s all;
-  border-bottom: 3px solid #6a41ed;
+  border-bottom: 3px solid #712180;
 }
 
 .probootstrap-featured-news-box .probootstrap-text h3 {
@@ -1627,7 +1627,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-featured-news-box:hover .probootstrap-text, .probootstrap-featured-news-box:focus .probootstrap-text {
-  background: #6a41ed;
+  background:  	#AEA072;
   top: -40px;
   -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
