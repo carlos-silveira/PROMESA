@@ -1,5 +1,5 @@
 <header>
-  <div class="probootstrap-header-top">
+  <!-- <div class="probootstrap-header-top">
     <div class="container">
       <div class="row">
         <div class="col-lg-9 col-md-9 col-sm-9 probootstrap-top-quick-contact-info">
@@ -9,16 +9,16 @@
         </div>
         <div class="col-lg-3 col-md-3 col-sm-3 probootstrap-top-social">
           <ul>
-            <li><a href="#"><i class="icon-twitter"></i></a></li>
+            <li class="{{Request::is('https://www.twitter.com'?'active' : '')}}"><a href="{{url('https://www.twitter.com')}}"><i class="icon-twitter"></i></a></li>
             <li><a href="#"><i class="icon-facebook2"></i></a></li>
             <li><a href="#"><i class="icon-instagram2"></i></a></li>
             <li><a href="#"><i class="icon-youtube"></i></a></li>
-            <!-- <li><a href="#" class="probootstrap-search-icon js-probootstrap-search"><i class="icon-search"></i></a></li> -->
+            <li><a href="#" class="probootstrap-search-icon js-probootstrap-search"><i class="icon-search"></i></a></li>
           </ul>
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <nav class="navbar navbar-default probootstrap-navbar">
     <div class="container">
       <div class="navbar-header">
@@ -36,17 +36,16 @@
 
       <div id="navbar-collapse" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="courses.html">Courses</a></li>
-          <li><a href="teachers.html">Teachers</a></li>
-          <li><a href="events.html">Events</a></li>
+          <li class="{{Request::is('/'?'active' : '')}}"><a href="{{url('/')}}">Inicio</a></li>
+          <li class="{{Request::is('/teachers'?'active' : '')}}"><a href="{{url('/teachers')}}">Docentes</a></li>
+          <li  class="{{Request::is('/events'?'active' : '')}}"><a href="{{url('/events')}}">Eventos</a></li>
           <li class="dropdown">
-            <a href="#" data-toggle="dropdown" class="dropdown-toggle">Pages</a>
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle">Apartados</a>
             <ul class="dropdown-menu">
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="courses.html">Courses</a></li>
-              <li><a href="course-single.html">Course Single</a></li>
-              <li class="{{Request::is('/galeria'?'active' : '')}}"><a href="{{url('/galeria')}}">Gallery</a></li>
+              <li class="{{Request::is('/about'?'active' : '')}}"><a href="{{url('/about')}}">Sobre nosotros</a></li>
+              <li class="{{Request::is('/curses'?'active' : '')}}"><a href="{{url('/courses')}}">Cursos</a></li>
+              <li class="{{Request::is('/course-single'?'active' : '')}}"><a href="{{url('/course-single')}}">Curso indibidual</a></li>
+              <li class="{{Request::is('/galeria'?'active' : '')}}"><a href="{{url('/galeria')}}">Galeria</a></li>
               <!-- <li class="dropdown-submenu dropdown">
                 <a href="#" data-toggle="dropdown" class="dropdown-toggle"><span>Sub Menu</span></a>
                 <ul class="dropdown-menu">
@@ -56,10 +55,10 @@
                   <li><a href="#">Second Level Menu</a></li>
                 </ul>
               </li> -->
-              <li><a href="news.html">News</a></li>
+              <li class="{{Request::is('/news'?'active' : '')}}"><a href="{{url('/news')}}">Noticias</a></li>
             </ul>
           </li>
-          <li><a href="contact.html">Contact</a></li>
+          <li class="{{Request::is('/contact'?'active' : '')}}"><a href="{{url('/contact')}}">Contacto</a></li>
         </ul>
       </div>
     </div>

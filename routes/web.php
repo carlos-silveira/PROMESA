@@ -14,11 +14,6 @@
 Route::get('/', function () {
     return view('frontend.site.index');
 });
-
-Route::get('/galeria', function () {
-    return view('frontend.site.gallery');
-});
-
 //Dashboard Routes
 Route::get('/login', function () {
     return view('frontend.dashboard.login');
@@ -31,4 +26,28 @@ Route::get('/portal/alumnos', function () {
 });
 Route::get('/about', function () {
     return view('frontend.site.about');
+});
+Route::get('/contact', function () {
+    return view('frontend.site.contact');
+});
+Route::get('/course-single', function () {
+    return view('frontend.site.course-single');
+});
+Route::get('/courses', function () {
+    return view('frontend.site.courses');
+});
+Route::get('/events', function () {
+    return view('frontend.site.events');
+});
+Route::get('/galeria', function () {
+    return view('frontend.site.gallery');
+});
+Route::get('/news', function () {
+    return view('frontend.site.news');
+});
+Route::get('/register', function () {
+    return view('frontend.site.register');
+});
+Route::get('/teachers', function () {
+    return view('frontend.site.teachers');
 });
