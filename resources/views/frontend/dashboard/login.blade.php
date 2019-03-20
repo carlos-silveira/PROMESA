@@ -52,7 +52,7 @@
                         <label class="custom-control-label" for="customCheck">Recordarme</label>
                       </div>
                     </div>
-                    <a href="index.html" class="btn btn-primary btn-user btn-block">
+                    <a href="{{url('/portal')}}" class="btn btn-primary btn-user btn-block">
                       Ingresar
                     </a>
                     <hr>
