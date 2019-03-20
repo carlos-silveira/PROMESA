@@ -4,7 +4,7 @@
       <!-- Fixed navbar -->
       <section class="flexslider">
         <ul class="slides">
-          <li style="background-image: url(img/img-s1-2.jpg)" class="overlay">
+          <li style="background-image: url({{asset ('img/img-s1-2.jpg')}}" class="overlay">
             <div class="container">
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
@@ -15,7 +15,7 @@
               </div>
             </div>
           </li>
-          <li style="background-image: url(img/img-s1-3.jpg)" class="overlay">
+          <li style="background-image: url({{asset ('img/img-s1-3.jpg')}}" class="overlay">
             <div class="container">
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
@@ -27,7 +27,7 @@
             </div>
 
           </li>
-          <li style="background-image: url(img/img-s1-1.jpg)" class="overlay">
+          <li style="background-image: url({{asset ('img/img-s1-1.jpg')}}" class="overlay">
             <div class="container">
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
@@ -61,7 +61,7 @@
                   <p>Somos una escuela la cual nuestro principal proposito, es que los alumnos con los que contamos o, obtengan las herramientas necesarias para luchar en la vida.</p>
                   <!-- <p><a href="#" class="btn btn-primary">Learn More</a></p> -->
                 </div>
-                <div class="probootstrap-image probootstrap-animate" style="background-image: url(img/img-v1-1.jpg)">
+                <div class="probootstrap-image probootstrap-animate" style="background-image: url({{asset ('img/img-v1-1.jpg')}}">
                   <a href="https://www.youtube.com/watch?v=Sg6RiJU8XTw" class="btn-video popup-vimeo"><i class="icon-play3"></i></a>
                 </div>
               </div>
@@ -160,8 +160,8 @@
                     <div class="col-md-12">
                       <div class="owl-carousel" id="owl1">
                         <div class="item">
-                          <a href="{{url('/news')}}" class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="img/img-dn-1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
+                          <a class="probootstrap-featured-news-box">
+                            <figure class="probootstrap-media"><img src="{{asset ('img/img-dn-1.jpg')}}"  class="img-responsive"></figure>
                             <div class="probootstrap-text">
                               <h3>Graduacion</h3>
                               <p>Graduacion de los alumnos del salon 5-A</p>
@@ -172,8 +172,8 @@
                         </div>
                         <!-- END item -->
                         <div class="item">
-                          <a href="{{url('/news')}}" class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="img/img-dn-2.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
+                          <a class="probootstrap-featured-news-box">
+                            <figure class="probootstrap-media"><img src="{{asset ('img/img-dn-2.jpg')}}"   class="img-responsive"></figure>
                             <div class="probootstrap-text">
                               <h3>Ajedres</h3>
                               <p>Primer lugar en ajedres </p>
@@ -184,8 +184,8 @@
                         </div>
                         <!-- END item -->
                         <div class="item">
-                          <a href="{{url('/news')}}" class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="img/img-de-3.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
+                          <a class="probootstrap-featured-news-box">
+                            <figure class="probootstrap-media"><img src="{{asset ('img/img-de-3.jpg')}}"  class="img-responsive"></figure>
                             <div class="probootstrap-text">
                               <h3>Primer lugar en teniss</h3>
                               <p>El quipo de teniss logro ganar el primer lugar en el torneo de verano</p>
@@ -196,8 +196,8 @@
                         </div>
                         <!-- END item -->
                         <div class="item">
-                          <a href="{{url('/news')}}" class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="img/img-de-2.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
+                          <a class="probootstrap-featured-news-box">
+                            <figure class="probootstrap-media"><img src="{{asset ('img/img-de-2.jpg')}}"   class="img-responsive"></figure>
                             <div class="probootstrap-text">
                               <h3>Primer lugar en futboll</h3>
                               <p>El quipo de futboll logro ganar el primer lugar en el torneo de verano</p>
@@ -214,7 +214,7 @@
                   <!-- END row -->
                   <div class="row">
                     <div class="col-md-12 text-center">
-                      <p><a href="{{url('/news')}}" class="btn btn-primary">Ver todas las noticias</a></p>
+                      <p><a class="btn btn-primary">Ver todas las noticias</a></p>
                     </div>
                   </div>
                 </div>
@@ -223,8 +223,8 @@
                     <div class="col-md-12">
                       <div class="owl-carousel" id="owl2">
                         <div class="item">
-                          <a href="{{url('/events')}}" class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="img/img-de-1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
+                          <a class="probootstrap-featured-news-box">
+                            <figure class="probootstrap-media"><img src="{{asset ('img/img-de-1.jpg')}}"  class="img-responsive"></figure>
                             <div class="probootstrap-text">
                               <h3>Temporada de basquetball</h3>
                               <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
@@ -234,8 +234,8 @@
                         </div>
                         <!-- END item -->
                         <div class="item">
-                          <a href="{{url('/events')}}" class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="img/img-de-2.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
+                          <a class="probootstrap-featured-news-box">
+                            <figure class="probootstrap-media"><img src="{{asset ('img/img-de-2.jpg')}}"   class="img-responsive"></figure>
                             <div class="probootstrap-text">
                               <h3>Temporada de futboll</h3>
                               <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
@@ -245,8 +245,8 @@
                         </div>
                         <!-- END item -->
                         <div class="item">
-                          <a href="{{url('/events')}}" class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="img/img-de-3.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
+                          <a class="probootstrap-featured-news-box">
+                            <figure class="probootstrap-media"><img src="{{asset ('img/img-de-3.jpg')}}"   class="img-responsive"></figure>
                             <div class="probootstrap-text">
                               <h3>Temporada de teniss</h3>
                               <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
@@ -256,8 +256,8 @@
                         </div>
                         <!-- END item -->
                         <div class="item">
-                          <a href="{{url('/events')}}" class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="img/img-de-4.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
+                          <a  class="probootstrap-featured-news-box">
+                            <figure class="probootstrap-media"><img src="{{asset ('img/img-de-4.jpg')}}"   class="img-responsive"></figure>
                             <div class="probootstrap-text">
                               <h3>Temporada de atletismo</h3>
                               <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
@@ -297,7 +297,7 @@
               <div class="probootstrap-service-2 probootstrap-animate">
                 <div class="image">
                   <div class="image-bg">
-                    <img src="img/img_sm_1.jpg" alt="Free Bootstrap Template by uicookies.com">
+                    <img src="{{asset ('img/img-sc-1.jpg')}}">
                   </div>
                 </div>
                 <div class="text">
@@ -311,7 +311,7 @@
               <div class="probootstrap-service-2 probootstrap-animate">
                 <div class="image">
                   <div class="image-bg">
-                    <img src="img/img_sm_3.jpg" alt="Free Bootstrap Template by uicookies.com">
+                    <img src="{{asset ('img/img-sc-2.jpg')}}">
                   </div>
                 </div>
                 <div class="text">
@@ -327,7 +327,7 @@
               <div class="probootstrap-service-2 probootstrap-animate">
                 <div class="image">
                   <div class="image-bg">
-                    <img src="img/img_sm_2.jpg" alt="Free Bootstrap Template by uicookies.com">
+                    <img src="{{asset ('img/img-sc-3.jpg')}}">
                   </div>
                 </div>
                 <div class="text">
@@ -341,7 +341,7 @@
               <div class="probootstrap-service-2 probootstrap-animate">
                 <div class="image">
                   <div class="image-bg">
-                    <img src="img/img_sm_4.jpg" alt="Free Bootstrap Template by uicookies.com">
+                    <img src="{{asset ('img/img-sc-4.jpg')}}">
                   </div>
                 </div>
                 <div class="text">
@@ -372,7 +372,7 @@
             <div class="col-md-3 col-sm-6">
               <div class="probootstrap-teacher text-center probootstrap-animate">
                 <figure class="media">
-                  <img src="img/perfil-teacher-2.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
+                  <img src="img/perfil-teacher-2.jpg"   class="img-responsive">
                 </figure>
                 <div class="text">
                   <h3>Chris Worth</h3>
@@ -389,7 +389,7 @@
             <div class="col-md-3 col-sm-6">
               <div class="probootstrap-teacher text-center probootstrap-animate">
                 <figure class="media">
-                  <img src="img/perfil-teacher-1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
+                  <img src="img/perfil-teacher-1.jpg"   class="img-responsive">
                 </figure>
                 <div class="text">
                   <h3>Janet Morris</h3>
@@ -407,7 +407,7 @@
             <div class="col-md-3 col-sm-6">
               <div class="probootstrap-teacher text-center probootstrap-animate">
                 <figure class="media">
-                  <img src="img/perfil-teacher-1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
+                  <img src="img/perfil-teacher-1.jpg"   class="img-responsive">
                 </figure>
                 <div class="text">
                   <h3>Linda Reyez</h3>
@@ -424,7 +424,7 @@
             <div class="col-md-3 col-sm-6">
               <div class="probootstrap-teacher text-center probootstrap-animate">
                 <figure class="media">
-                  <img src="img/perfil-teacher-1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
+                  <img src="img/perfil-teacher-1.jpg"   class="img-responsive">
                 </figure>
                 <div class="text">
                   <h3>Jessa Sy</h3>
@@ -446,8 +446,8 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
-              <h2>Alumni Testimonial</h2>
-              <p class="lead">Sed a repudiandae impedit voluptate nam Deleniti dignissimos perspiciatis nostrum porro nesciunt</p>
+              <h2>Testimonios de Alumnos</h2>
+              <p class="lead">Testimonios de alumnos egresados de la institucion</p>
             </div>
           </div>
           <!-- END row -->
@@ -458,26 +458,26 @@
 
                   <div class="probootstrap-testimony-wrap text-center">
                     <figure>
-                      <img src="img/person_1.jpg" alt="Free Bootstrap Template by uicookies.com">
+                      <img src="img/perfil-teacher-2.jpg"  >
                     </figure>
-                    <blockquote class="quote">&ldquo;Design must be functional and functionality must be translated into visual aesthetics, without any reliance on gimmicks that have to be explained.&rdquo; <cite class="author"> &mdash; <span>Mike Fisher</span></cite></blockquote>
+                    <blockquote class="quote">&ldquo;La institusion Cumbres a sido una de las mejores en la que e estado, ya que cuenta con un equipo de docentes altamente capacitados y unas instalaciones de calidad.&rdquo; <cite class="author"> &mdash; <span>Mike Fisher</span></cite></blockquote>
                   </div>
 
                 </div>
                 <div class="item">
                   <div class="probootstrap-testimony-wrap text-center">
                     <figure>
-                      <img src="img/person_2.jpg" alt="Free Bootstrap Template by uicookies.com">
+                      <img src="img/perfil-teacher-2.jpg"  >
                     </figure>
-                    <blockquote class="quote">&ldquo;Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something. It seemed obvious to them after a while.&rdquo; <cite class="author"> &mdash;<span>Jorge Smith</span></cite></blockquote>
+                    <blockquote class="quote">&ldquo;La institusion Cumbres a sido una de las mejores en la que e estado, ya que cuenta con un equipo de docentes altamente capacitados y unas instalaciones de calidad.&rdquo; <cite class="author"> &mdash;<span>Jorge Smith</span></cite></blockquote>
                   </div>
                 </div>
                 <div class="item">
                   <div class="probootstrap-testimony-wrap text-center">
                     <figure>
-                      <img src="img/person_3.jpg" alt="Free Bootstrap Template by uicookies.com">
+                      <img src="img/perfil-teacher-2.jpg" >
                     </figure>
-                    <blockquote class="quote">&ldquo;I think design would be better if designers were much more skeptical about its applications. If you believe in the potency of your craft, where you choose to dole it out is not something to take lightly.&rdquo; <cite class="author">&mdash; <span>Brandon White</span></cite></blockquote>
+                    <blockquote class="quote">&ldquo;La institusion Cumbres a sido una de las mejores en la que e estado, ya que cuenta con un equipo de docentes altamente capacitados y unas instalaciones de calidad.&rdquo; <cite class="author">&mdash; <span>Brandon White</span></cite></blockquote>
                   </div>
                 </div>
 
@@ -492,8 +492,8 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
-              <h2>Why Choose Enlight School</h2>
-              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+              <h2>¿Por qué elegir Cumbres?</h2>
+              <p class="lead">Cumbres es una institucion que se preocupa por sus alumnos</p>
             </div>
           </div>
           <div class="row">
@@ -501,22 +501,22 @@
               <div class="service left-icon probootstrap-animate">
                 <div class="icon"><i class="icon-checkmark"></i></div>
                 <div class="text">
-                  <h3>Consectetur Adipisicing</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                  <h3>Docentes Altamente Capacitados</h3>
+                  <p>Los docentes que imparten clases en Cumbres cuentan con certificados de especialida valorados a nivel internacional</p>
                 </div>
               </div>
               <div class="service left-icon probootstrap-animate">
                 <div class="icon"><i class="icon-checkmark"></i></div>
                 <div class="text">
-                  <h3>Aliquid Dolorum Saepe</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                  <h3>Instalaciones de Calidad</h3>
+                  <p>Las instalaciones de Cumbres cuentan con equipamiento especialisado y con limpiesa de alta calidad</p>
                 </div>
               </div>
               <div class="service left-icon probootstrap-animate">
                 <div class="icon"><i class="icon-checkmark"></i></div>
                 <div class="text">
-                  <h3>Eveniet Tempora Anisi</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                  <h3>Cursos</h3>
+                  <p>Cumbres cuenta con cursos de calidad para un mayor desarrollo de las habilidades</p>
                 </div>
               </div>
             </div>
@@ -524,24 +524,24 @@
               <div class="service left-icon probootstrap-animate">
                 <div class="icon"><i class="icon-checkmark"></i></div>
                 <div class="text">
-                  <h3>Laboriosam Quod Dignissimos</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                  <h3>Actividades Recreativas</h3>
+                  <p>Se cuenta con equipos de futboll, basquetboll, teniss, atletismo, musica, arte, dansa, entre otras actividades.</p>
                 </div>
               </div>
 
               <div class="service left-icon probootstrap-animate">
                 <div class="icon"><i class="icon-checkmark"></i></div>
                 <div class="text">
-                  <h3>Asperiores Maxime Modi</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                  <h3>Localizacion</h3>
+                  <p>La institucion esta ubicada en un punto estrategico para la tranquilidad de los padres de familia</p>
                 </div>
               </div>
 
               <div class="service left-icon probootstrap-animate">
                 <div class="icon"><i class="icon-checkmark"></i></div>
                 <div class="text">
-                  <h3>Libero Maxime Molestiae</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                  <h3>Seguridad</h3>
+                  <p>Se cuenta con personal encargado de verificar el acceso de personal para que los alumnos esten siempre seguros para tranquilidad de los padres</p>
                 </div>
               </div>
 
