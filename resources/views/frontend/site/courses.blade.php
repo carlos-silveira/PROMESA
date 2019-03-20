@@ -6,7 +6,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-left section-heading probootstrap-animate">
-              <h1>Our Courses</h1>
+              <h1>Nuestros cursos</h1>
             </div>
           </div>
         </div>
@@ -18,12 +18,12 @@
             <div class="col-md-12">
               <div class="probootstrap-flex-block">
                 <div class="probootstrap-text probootstrap-animate">
-                  <div class="text-uppercase probootstrap-uppercase">Featured Course</div>
-                  <h3>Chemical Engineering</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis explicabo veniam labore ratione illo vero voluptate a deserunt incidunt odio aliquam commodi blanditiis voluptas error non rerum temporibus optio accusantium!</p>
-                  <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">2,928 students enrolled</span></p>
+                  <div class="text-uppercase probootstrap-uppercase">Curso destacado</div>
+                  <h3>Diseño de aplicaciónes</h3>
+                  <p>En este curso se visualisara todo lo necesario para poder realizar diseños de aplicaciones</p>
+                  <!-- <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">2,928 students enrolled</span></p> -->
                 </div>
-                <div class="probootstrap-image probootstrap-animate" style="background-image: url(img/slider_3.jpg)">
+                <div class="probootstrap-image probootstrap-animate" style="background-image: url({{asset ('img/img-sc-1.jpg')}})">
                   <a href="https://vimeo.com/45830194" class="btn-video popup-vimeo"><i class="icon-play3"></i></a>
                 </div>
               </div>
@@ -39,28 +39,28 @@
               <div class="probootstrap-service-2 probootstrap-animate">
                 <div class="image">
                   <div class="image-bg">
-                    <img src="img/img_sm_1.jpg" alt="Free Bootstrap Template by uicookies.com">
+                    <img src="{{asset ('img/img-sc-1.jpg')}}" alt="Free Bootstrap Template by uicookies.com">
                   </div>
                 </div>
                 <div class="text">
                   <span class="probootstrap-meta"><i class="icon-calendar2"></i> July 10, 2017</span>
-                  <h3>Application Design</h3>
-                  <p>Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam quos quis nisi voluptatum architecto rerum error.</p>
-                  <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">2,928 students enrolled</span></p>
+                  <h3>Diseño de aplicaciónes</h3>
+                  <p>En este curso se visualisara todo lo necesario para poder realizar diseños de aplicaciones</p>
+                  <!-- <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">2,928 students enrolled</span></p> -->
                 </div>
               </div>
 
               <div class="probootstrap-service-2 probootstrap-animate">
                 <div class="image">
                   <div class="image-bg">
-                    <img src="img/img_sm_3.jpg" alt="Free Bootstrap Template by uicookies.com">
+                    <img src="{{asset ('img/img-sc-2.jpg')}}" alt="Free Bootstrap Template by uicookies.com">
                   </div>
                 </div>
                 <div class="text">
                   <span class="probootstrap-meta"><i class="icon-calendar2"></i> July 10, 2017</span>
-                  <h3>Chemical Engineering</h3>
-                  <p>Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam quos quis nisi voluptatum architecto rerum error.</p>
-                  <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">7,202 students enrolled</span></p>
+                  <h3>Ingeniería Química</h3>
+                  <p>En este curso se visualisara todo lo necesario para poder entender la quimica y sus derivados</p>
+                  <!-- <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">7,202 students enrolled</span></p> -->
                 </div>
               </div>
 
@@ -69,35 +69,35 @@
               <div class="probootstrap-service-2 probootstrap-animate">
                 <div class="image">
                   <div class="image-bg">
-                    <img src="img/img_sm_2.jpg" alt="Free Bootstrap Template by uicookies.com">
+                    <img src="{{asset ('img/img-sc-3.jpg')}}" alt="Free Bootstrap Template by uicookies.com">
                   </div>
                 </div>
                 <div class="text">
                   <span class="probootstrap-meta"><i class="icon-calendar2"></i> July 10, 2017</span>
-                  <h3>Math Major</h3>
-                  <p>Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam quos quis nisi voluptatum architecto rerum error.</p>
-                  <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">12,582 students enrolled</span></p>
+                  <h3>Arte</h3>
+                  <p>En este curso se visualisara todo lo necesario para poder desarrollar tus habilidades artisticas</p>
+                  <!-- <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">12,582 students enrolled</span></p> -->
                 </div>
               </div>
 
               <div class="probootstrap-service-2 probootstrap-animate">
                 <div class="image">
                   <div class="image-bg">
-                    <img src="img/img_sm_4.jpg" alt="Free Bootstrap Template by uicookies.com">
+                    <img src="{{asset ('img/img-sc-4.jpg')}}" alt="Free Bootstrap Template by uicookies.com">
                   </div>
                 </div>
                 <div class="text">
                   <span class="probootstrap-meta"><i class="icon-calendar2"></i> July 10, 2017</span>
-                  <h3>English Major</h3>
-                  <p>Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam quos quis nisi voluptatum architecto rerum error.</p>
-                  <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">9,582 students enrolled</span></p>
+                  <h3>Musica</h3>
+                  <p>En este curso se visualisara todo lo necesario para desarrollar tus habilidades musicales</p>
+                  <!-- <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">9,582 students enrolled</span></p> -->
                 </div>
               </div>
 
             </div>
           </div>
 
-          <div class="row">
+          <!-- <div class="row">
             <div class="col-md-6">
               <div class="probootstrap-service-2 probootstrap-animate">
                 <div class="image">
@@ -157,22 +157,22 @@
                 </div>
               </div>
 
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
 
-      <section class="probootstrap-section">
+      <!-- <section class="probootstrap-section">
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
               <h2>Meet Our Qualified Teachers</h2>
               <p class="lead">Sed a repudiandae impedit voluptate nam Deleniti dignissimos perspiciatis nostrum porro nesciunt</p>
             </div>
-          </div>
+          </div> -->
           <!-- END row -->
 
-          <div class="row">
+          <!-- <div class="row">
             <div class="col-md-3 col-sm-6">
               <div class="probootstrap-teacher text-center probootstrap-animate">
                 <figure class="media">
@@ -245,6 +245,6 @@
           </div>
 
         </div>
-      </section>
+      </section> -->
     </div>
-@endsection  
+@endsection
