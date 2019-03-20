@@ -6,7 +6,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-left section-heading probootstrap-animate">
-              <h1>About The School</h1>
+              <h1>Acerca de nosotros</h1>
             </div>
           </div>
         </div>
@@ -18,12 +18,12 @@
             <div class="col-md-12">
               <div class="probootstrap-flex-block">
                 <div class="probootstrap-text probootstrap-animate">
-                  <div class="text-uppercase probootstrap-uppercase">History</div>
-                  <h3>Take A Look at How We Begin</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis explicabo veniam labore ratione illo vero voluptate a deserunt incidunt odio aliquam commodi blanditiis voluptas error non rerum temporibus optio accusantium!</p>
-                  <p><a href="#" class="btn btn-primary">Learn More</a></p>
+                  <div class="text-uppercase probootstrap-uppercase">Historia</div>
+                  <h3>Colegio Cumbres</h3>
+                  <p>El Colegi Cumbres es una institucion la cual se preocupa por el futuro de sus alumnos, enseñando a utilizar todo el potencial de sus habilidades</p>
+                  <!-- <p><a href="#" class="btn btn-primary">Learn More</a></p> -->
                 </div>
-                <div class="probootstrap-image probootstrap-animate" style="background-image: url(img/slider_4.jpg)">
+                <div class="probootstrap-image probootstrap-animate" style="background-image: url({{asset ('img/img-s1-1.jpg')}})">
                   <a href="https://vimeo.com/45830194" class="btn-video popup-vimeo"><i class="icon-play3"></i></a>
                 </div>
               </div>
@@ -37,13 +37,13 @@
 
           <div class="col-md-6">
             <p>
-              <img src="img/slider_1.jpg" alt="Free Bootstrap Template by uicookes.com" class="img-responsive">
+              <img src="{{asset ('img/img-s1-2.jpg')}}" alt="Free Bootstrap Template by uicookes.com" class="img-responsive">
             </p>
           </div>
           <div class="col-md-6 col-md-push-1">
-            <h2>We are NYC based School focused on excellence.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis explicabo veniam labore ratione illo vero voluptate a deserunt incidunt odio aliquam commodi blanditiis voluptas error non rerum temporibus optio accusantium!</p>
-            <p>Quis explicabo veniam labore ratione illo vero voluptate a deserunt incidunt odio aliquam commodi blanditiis voluptas error non rerum temporibus optio accusantium!</p>
+            <h2>Somos una escuela basada en la excelencia.</h2>
+            <p>Colegio cumbres cuenta exelentes docentes capacitados para el desarrollo de los conocimientos de nuestros alumnos, para asi formar personas con un futuro brillante y con un potencial para cualquier trabajo.</p>
+            <!-- <p>Quis explicabo veniam labore ratione illo vero voluptate a deserunt incidunt odio aliquam commodi blanditiis voluptas error non rerum temporibus optio accusantium!</p> -->
           </div>
 
 
@@ -54,8 +54,8 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
-              <h2>Why Choose Enlight School</h2>
-              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+              <h2>¿Por qué elegir Cumbres?</h2>
+              <p class="lead">Cumbres es una institucion que se preocupa por sus alumnos</p>
             </div>
           </div>
           <div class="row">
@@ -63,22 +63,22 @@
               <div class="service left-icon probootstrap-animate">
                 <div class="icon"><i class="icon-checkmark"></i></div>
                 <div class="text">
-                  <h3>Consectetur Adipisicing</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                  <h3>Docentes Altamente Capacitados</h3>
+                  <p>Los docentes que imparten clases en Cumbres cuentan con certificados de especialida valorados a nivel internacional</p>
                 </div>
               </div>
               <div class="service left-icon probootstrap-animate">
                 <div class="icon"><i class="icon-checkmark"></i></div>
                 <div class="text">
-                  <h3>Aliquid Dolorum Saepe</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                  <h3>Instalaciones de Calidad</h3>
+                  <p>Las instalaciones de Cumbres cuentan con equipamiento especialisado y con limpiesa de alta calidad</p>
                 </div>
               </div>
               <div class="service left-icon probootstrap-animate">
                 <div class="icon"><i class="icon-checkmark"></i></div>
                 <div class="text">
-                  <h3>Eveniet Tempora Anisi</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                  <h3>Cursos</h3>
+                  <p>Cumbres cuenta con cursos de calidad para un mayor desarrollo de las habilidades</p>
                 </div>
               </div>
             </div>
@@ -86,24 +86,24 @@
               <div class="service left-icon probootstrap-animate">
                 <div class="icon"><i class="icon-checkmark"></i></div>
                 <div class="text">
-                  <h3>Laboriosam Quod Dignissimos</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                  <h3>Actividades Recreativas</h3>
+                  <p>Se cuenta con equipos de futboll, basquetboll, teniss, atletismo, musica, arte, dansa, entre otras actividades.</p>
                 </div>
               </div>
 
               <div class="service left-icon probootstrap-animate">
                 <div class="icon"><i class="icon-checkmark"></i></div>
                 <div class="text">
-                  <h3>Asperiores Maxime Modi</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                  <h3>Localizacion</h3>
+                  <p>La institucion esta ubicada en un punto estrategico para la tranquilidad de los padres de familia</p>
                 </div>
               </div>
 
               <div class="service left-icon probootstrap-animate">
                 <div class="icon"><i class="icon-checkmark"></i></div>
                 <div class="text">
-                  <h3>Libero Maxime Molestiae</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                  <h3>Seguridad</h3>
+                  <p>Se cuenta con personal encargado de verificar el acceso de personal para que los alumnos esten siempre seguros para tranquilidad de los padres</p>
                 </div>
               </div>
 
