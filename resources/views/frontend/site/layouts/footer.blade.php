@@ -29,12 +29,12 @@
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro provident suscipit natus a cupiditate ab minus illum quaerat maxime inventore Ea consequatur consectetur hic provident dolor ab aliquam eveniet alias</p> -->
           <h3>Social</h3>
           <ul class="probootstrap-footer-social">
-            <li class="{{Request::is('https://www.twitter.com'?'active' : '')}}"><a href="{{url('https://www.twitter.com')}}"><i class="icon-twitter"></i></a></li>
+            <li class="{{Request::is('https://www.twitter.com'?'active' : '')}}"><a target="_blank" href="{{url('https://www.twitter.com')}}"><i class="icon-twitter"></i></a></li>
             <!-- <li class="{{Request::is('https://www.twitter.com'?'active' : '')}}"><a href="{{url('https://www.twitter.com')}}"><i class="icon-github"></i></a></li> -->
-            <li class="{{Request::is('https://www.facebook.com/ColegioNacionalCumbres/'?'active' : '')}}"><a  target="_blank" href="{{url('https://www.facebook.com/ColegioNacionalCumbres/')}}"><i class="icon-facebook"></i></a></li>
+            <li class="{{Request::is('https://www.facebook.com/ColegioNacionalCumbres/'?'active' : '')}}"><a target="_blank" href="{{url('https://www.facebook.com/ColegioNacionalCumbres/')}}"><i class="icon-facebook"></i></a></li>
             <!-- <li class="{{Request::is('https://www.twitter.com'?'active' : '')}}"><a href="{{url('https://www.twitter.com')}}"><i class="icon-dribbble"></i></a></li>
             <li class="{{Request::is('https://www.twitter.com'?'active' : '')}}"><a href="{{url('https://www.twitter.com')}}"><i class="icon-linkedin"></i></a></li> -->
-            <li class="{{Request::is('https://www.twitter.com'?'active' : '')}}"><a href="{{url('https://www.twitter.com')}}"><i class="icon-youtube"></i></a></li>
+            <li class="{{Request::is('https://www.twitter.com'?'active' : '')}}"><a target="_blank" href="{{url('https://www.twitter.com')}}"><i class="icon-youtube"></i></a></li>
           </ul>
         </div>
       </div>
