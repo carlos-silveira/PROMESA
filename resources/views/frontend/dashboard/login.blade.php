@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SB Admin 2 - Login</title>
+  <title>Cumbres Login</title>
 
   <!-- Custom fonts for this template-->
   <  <link rel="stylesheet" href="{{ asset('/css/all.min.css')}}">
@@ -59,7 +59,7 @@
                   </form>
                   <hr>
                   <div class="text-center">
-                    <a class="small" href="">Volver a Pagina principal</a>
+                    <a class="small" href="{{url('/')}}">Volver a Pagina principal</a>
                   </div>
                   <!-- <div class="text-center">
                     <a class="small" href="register.html">Create an Account!</a>

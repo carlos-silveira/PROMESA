@@ -6,7 +6,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-left section-heading probootstrap-animate">
-              <h1>School Events</h1>
+              <h1>Noticias Escolares</h1>
             </div>
           </div>
         </div>
@@ -18,14 +18,14 @@
             <div class="col-md-12">
               <div class="probootstrap-flex-block">
                 <div class="probootstrap-text probootstrap-animate">
-                  <div class="text-uppercase probootstrap-uppercase">Featured News</div>
+                  <div class="text-uppercase probootstrap-uppercase">Noticias destacadas</div>
                   <h3>Students Math Competition for The Year 2017</h3>
                   <p>Quis explicabo veniam labore ratione illo vero voluptate a deserunt incidunt odio aliquam commodi </p>
-                  <p>
+                  <!-- <p>
                     <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
                     <span class="probootstrap-location"><i class="icon-user2"></i>By Admin</span>
                   </p>
-                  <p><a href="#" class="btn btn-primary">Learn More</a></p>
+                  <p><a href="#" class="btn btn-primary">Learn More</a></p> -->
                 </div>
                 <div class="probootstrap-image probootstrap-animate" style="background-image: url(img/slider_4.jpg)">
                   <a href="https://vimeo.com/45830194" class="btn-video popup-vimeo"><i class="icon-play3"></i></a>

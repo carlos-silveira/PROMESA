@@ -6,7 +6,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-left section-heading probootstrap-animate">
-              <h1>Chemical Engineering</h1>
+              <h1>Atencion personalizada</h1>
             </div>
           </div>
         </div>
@@ -19,12 +19,12 @@
               <div class="row probootstrap-gutter0">
                 <div class="col-md-4" id="probootstrap-sidebar">
                   <div class="probootstrap-sidebar-inner probootstrap-overlap probootstrap-animate">
-                    <h3>More Courses</h3>
+                    <h3>Curso indibidual</h3>
                     <ul class="probootstrap-side-menu">
-                      <li class="active"><a>Chemical Engineering</a></li>
-                      <li><a href="#">Application Design</a></li>
-                      <li><a href="#">Math Major</a></li>
-                      <li><a href="#">English Major</a></li>
+                      <li ><a>Chemical Engineering</a></li>
+                      <li><a>Application Design</a></li>
+                      <li><a>Math Major</a></li>
+                      <li><a>English Major</a></li>
                     </ul>
                   </div>
                 </div>

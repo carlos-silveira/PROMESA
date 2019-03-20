@@ -59,6 +59,7 @@
             </ul>
           </li>
           <li class="{{Request::is('/contact'?'active' : '')}}"><a href="{{url('/contact')}}">Contacto</a></li>
+            <li class="{{Request::is('/login'?'active' : '')}}"><a href="{{url('/login')}}">Iniciar Sesion</a></li>
         </ul>
       </div>
     </div>
