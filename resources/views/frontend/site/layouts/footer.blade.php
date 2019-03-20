@@ -31,7 +31,7 @@
           <ul class="probootstrap-footer-social">
             <li class="{{Request::is('https://www.twitter.com'?'active' : '')}}"><a href="{{url('https://www.twitter.com')}}"><i class="icon-twitter"></i></a></li>
             <!-- <li class="{{Request::is('https://www.twitter.com'?'active' : '')}}"><a href="{{url('https://www.twitter.com')}}"><i class="icon-github"></i></a></li> -->
-            <li class="{{Request::is('https://www.facebook.com/ColegioNacionalCumbres/'?'active' : '')}}"><a href="{{url('https://www.facebook.com/ColegioNacionalCumbres/')}}"><i class="icon-facebook"></i></a></li>
+            <li class="{{Request::is('https://www.facebook.com/ColegioNacionalCumbres/'?'active' : '')}}"><a  target="_blank" href="{{url('https://www.facebook.com/ColegioNacionalCumbres/')}}"><i class="icon-facebook"></i></a></li>
             <!-- <li class="{{Request::is('https://www.twitter.com'?'active' : '')}}"><a href="{{url('https://www.twitter.com')}}"><i class="icon-dribbble"></i></a></li>
             <li class="{{Request::is('https://www.twitter.com'?'active' : '')}}"><a href="{{url('https://www.twitter.com')}}"><i class="icon-linkedin"></i></a></li> -->
             <li class="{{Request::is('https://www.twitter.com'?'active' : '')}}"><a href="{{url('https://www.twitter.com')}}"><i class="icon-youtube"></i></a></li>
