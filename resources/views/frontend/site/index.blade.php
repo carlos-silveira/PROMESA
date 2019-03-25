@@ -9,7 +9,7 @@
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                   <div class="probootstrap-slider-text text-center">
-                    <h1 class="probootstrap-heading probootstrap-animate">Bienvenidos</h1>
+                    <h1 class="probootstrap-heading probootstrap-animate"></h1>
                   </div>
                 </div>
               </div>
@@ -20,7 +20,7 @@
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                   <div class="probootstrap-slider-text text-center">
-                    <h1 class="probootstrap-heading probootstrap-animate">Todos buscamos que nuestros hijos lleguen a la cima por eso vamos a cumberes</h1>
+                    <h1 class="probootstrap-heading probootstrap-animate"></h1>
                   </div>
                 </div>
               </div>
@@ -32,8 +32,7 @@
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                   <div class="probootstrap-slider-text text-center">
-                    <h1 class="probootstrap-heading probootstrap-animate">Ayudando a cada uno de nuestros estudiantes a alcanzar el potencial</h1>
-                  </div>
+                    <h1 class="probootstrap-heading probootstrap-animate"></div>
                 </div>
               </div>
             </div>
@@ -45,7 +44,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-left section-heading probootstrap-animate">
-              <h2>Bienvenidos a una Escuela de Excelencia</h2>
+              <h2>Colegio Nacional Cumbres Nuevo Casas Grandes</h2>
             </div>
           </div>
         </div>
@@ -62,7 +61,7 @@
                   <!-- <p><a href="#" class="btn btn-primary">Learn More</a></p> -->
                 </div>
                 <div class="probootstrap-image probootstrap-animate" style="background-image: url({{asset ('img/img-v1-1.jpg')}}">
-                  <a href="https://www.youtube.com/watch?v=Sg6RiJU8XTw" class="btn-video popup-vimeo"><i class="icon-play3"></i></a>
+                  <a href="https://www.youtube.com/watch?v=zDoEH4GfjxA" class="btn-video popup-vimeo"><i class="icon-play3"></i></a>
                 </div>
               </div>
             </div>
