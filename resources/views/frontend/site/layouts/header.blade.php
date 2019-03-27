@@ -60,6 +60,7 @@
           </li>
           <li class="{{Request::is('/contact'?'active' : '')}}"><a href="{{url('/contact')}}">Contacto</a></li>
             <li class="{{Request::is('/login'?'active' : '')}}"><a href="{{url('/login')}}">Iniciar Sesion</a></li>
+            <li  class="{{Request::is('/Registrar'?'active' : '')}}"><a class="btn-registrar" href="{{url('/Registrar')}}">Registrar</a></li>
         </ul>
       </div>
     </div>
