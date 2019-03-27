@@ -131,7 +131,9 @@
         </div>
       </section>
 
-      <section class="probootstrap-section probootstrap-section-colored probootstrap-bg probootstrap-custom-heading probootstrap-tab-section" style="background-color: #712180">
+      <section class="probootstrap-section probootstrap-section-colored probootstrap-bg probootstrap-custom-heading probootstrap-tab-section"
+      style="background-color: #712180 " >
+        <!-- <img src="{{asset ('img/logos.png')}}">  -->
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center section-heading probootstrap-animate">
@@ -142,7 +144,7 @@
         <div class="probootstrap-tab-style-1">
           <ul class="nav nav-tabs probootstrap-center probootstrap-tabs no-border">
             <li class="active"><a data-toggle="tab" href="#featured-news">Filosofia</a></li>
-            <li><a data-toggle="tab" href="#upcoming-events">Próximos Eventos</a></li>
+            <li><a data-toggle="tab" href="#upcoming-events">Objetivos</a></li>
           </ul>
         </div>
       </section>
@@ -204,11 +206,7 @@
                     </div>
                   </div>
                   <!-- END row -->
-                  <div class="row">
-                    <div class="col-md-12 text-center">
-                      <p><a class="btn btn-primary">Ver todas las noticias</a></p>
-                    </div>
-                  </div>
+
                 </div>
                 <div id="upcoming-events" class="tab-pane fade">
                   <div class="row">
@@ -218,42 +216,26 @@
                           <a class="probootstrap-featured-news-box">
                             <figure class="probootstrap-media"><img src="{{asset ('img/img-de-1.jpg')}}"  class="img-responsive"></figure>
                             <div class="probootstrap-text">
-                              <h3>Temporada de basquetball</h3>
-                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
-                              <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
+                              <h3>Objetivo de Desarrollo o Misional</h3>
+                              <p>Generar cuidadanos moralmente responsables, tienen pensamiento crítico, cultos, socialmente activo</p>
                             </div>
                           </a>
                         </div>
                         <!-- END item -->
+                        <!-- item vacio-->
                         <div class="item">
                           <a class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="{{asset ('img/img-de-2.jpg')}}"   class="img-responsive"></figure>
-                            <div class="probootstrap-text">
-                              <h3>Temporada de futboll</h3>
-                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
-                              <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
-                            </div>
+
                           </a>
                         </div>
                         <!-- END item -->
-                        <div class="item">
-                          <a class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="{{asset ('img/img-de-3.jpg')}}"   class="img-responsive"></figure>
-                            <div class="probootstrap-text">
-                              <h3>Temporada de teniss</h3>
-                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
-                              <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
-                            </div>
-                          </a>
-                        </div>
-                        <!-- END item -->
+
                         <div class="item">
                           <a  class="probootstrap-featured-news-box">
                             <figure class="probootstrap-media"><img src="{{asset ('img/img-de-4.jpg')}}"   class="img-responsive"></figure>
                             <div class="probootstrap-text">
-                              <h3>Temporada de atletismo</h3>
-                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
-                              <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
+                              <h3>Objetivo General</h3>
+                              <p>Elevar el desarrollo humano en muchos jóvenes y adolesentes de NCG</p>
                             </div>
                           </a>
                         </div>
@@ -261,11 +243,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-md-12 text-center">
-                      <p><a href="{{url('/events')}}" class="btn btn-primary">Ver todos los eventos</a></p>
-                    </div>
-                  </div>
+
                 </div>
 
               </div>
