@@ -131,9 +131,7 @@
         </div>
       </section>
 
-      <section class="probootstrap-section probootstrap-section-colored probootstrap-bg probootstrap-custom-heading probootstrap-tab-section"
-      style="background-color: #712180 " >
-        <!-- <img src="{{asset ('img/logos.png')}}">  -->
+      <section class="probootstrap-section probootstrap-section-colored probootstrap-bg probootstrap-custom-heading probootstrap-tab-section" style="background-color: #712180">
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center section-heading probootstrap-animate">
@@ -143,8 +141,8 @@
         </div>
         <div class="probootstrap-tab-style-1">
           <ul class="nav nav-tabs probootstrap-center probootstrap-tabs no-border">
-            <li class="active"><a data-toggle="tab" href="#featured-news">Filosofia</a></li>
-            <li><a data-toggle="tab" href="#upcoming-events">Objetivos</a></li>
+            <li class="active"><a data-toggle="tab" href="#featured-news">Noticias destacadas</a></li>
+            <li><a data-toggle="tab" href="#upcoming-events">Próximos Eventos</a></li>
           </ul>
         </div>
       </section>
@@ -164,13 +162,9 @@
                           <a class="probootstrap-featured-news-box">
                             <figure class="probootstrap-media"><img src="{{asset ('img/img-dn-1.jpg')}}"  class="img-responsive"></figure>
                             <div class="probootstrap-text">
-                              <h3>Valores</h3>
-                              <p>Calidad: Herramienta básica e importante para una propiedad inherente de cualquier cosa,
-                                Calidez: Permite que nuestras relaciones con los otros fluyan de manera honesta y positiva y
-                                 Liderazgo: Habilidades gerenciales o directivas que un individuo tiene para influir en la forma de ser</p>
-                              <p></p>
-                              <p></p>
-
+                              <h3>Graduacion</h3>
+                              <p>Graduacion de los alumnos del salon 5-A</p>
+                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
 
                             </div>
                           </a>
@@ -180,9 +174,10 @@
                           <a class="probootstrap-featured-news-box">
                             <figure class="probootstrap-media"><img src="{{asset ('img/img-dn-2.jpg')}}"   class="img-responsive"></figure>
                             <div class="probootstrap-text">
-                              <h3>Misión</h3>
-                              <p>Generar condiciones y espacios para formar una comunidad estudiantil
-                              moralmente responsable en distintas áreas de conocimiento, deporte, artes y desarrollo humano</p>
+                              <h3>Ajedres</h3>
+                              <p>Primer lugar en ajedres </p>
+                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
+
                             </div>
                           </a>
                         </div>
@@ -191,22 +186,36 @@
                           <a class="probootstrap-featured-news-box">
                             <figure class="probootstrap-media"><img src="{{asset ('img/img-de-3.jpg')}}"  class="img-responsive"></figure>
                             <div class="probootstrap-text">
-                              <h3>Visión</h3>
-                              <p>Ser una institución que se caracteriza por su innovación,liderazgo y alto compromiso moral,
-                              que cuenta con alumnos agentes de cambio para la transformación social.</p>
+                              <h3>Primer lugar en teniss</h3>
+                              <p>El quipo de teniss logro ganar el primer lugar en el torneo de verano</p>
+                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
+
+                            </div>
+                          </a>
+                        </div>
+                        <!-- END item -->
+                        <div class="item">
+                          <a class="probootstrap-featured-news-box">
+                            <figure class="probootstrap-media"><img src="{{asset ('img/img-de-2.jpg')}}"   class="img-responsive"></figure>
+                            <div class="probootstrap-text">
+                              <h3>Primer lugar en futboll</h3>
+                              <p>El quipo de futboll logro ganar el primer lugar en el torneo de verano</p>
+                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
 
 
                             </div>
                           </a>
                         </div>
                         <!-- END item -->
-
-                        <!-- END item -->
                       </div>
                     </div>
                   </div>
                   <!-- END row -->
-
+                  <div class="row">
+                    <div class="col-md-12 text-center">
+                      <p><a class="btn btn-primary">Ver todas las noticias</a></p>
+                    </div>
+                  </div>
                 </div>
                 <div id="upcoming-events" class="tab-pane fade">
                   <div class="row">
@@ -216,26 +225,42 @@
                           <a class="probootstrap-featured-news-box">
                             <figure class="probootstrap-media"><img src="{{asset ('img/img-de-1.jpg')}}"  class="img-responsive"></figure>
                             <div class="probootstrap-text">
-                              <h3>Objetivo de Desarrollo o Misional</h3>
-                              <p>Generar cuidadanos moralmente responsables, tienen pensamiento crítico, cultos, socialmente activo</p>
+                              <h3>Temporada de basquetball</h3>
+                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
+                              <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
                             </div>
                           </a>
                         </div>
                         <!-- END item -->
-                        <!-- item vacio-->
                         <div class="item">
                           <a class="probootstrap-featured-news-box">
-
+                            <figure class="probootstrap-media"><img src="{{asset ('img/img-de-2.jpg')}}"   class="img-responsive"></figure>
+                            <div class="probootstrap-text">
+                              <h3>Temporada de futboll</h3>
+                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
+                              <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
+                            </div>
                           </a>
                         </div>
                         <!-- END item -->
-
+                        <div class="item">
+                          <a class="probootstrap-featured-news-box">
+                            <figure class="probootstrap-media"><img src="{{asset ('img/img-de-3.jpg')}}"   class="img-responsive"></figure>
+                            <div class="probootstrap-text">
+                              <h3>Temporada de teniss</h3>
+                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
+                              <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
+                            </div>
+                          </a>
+                        </div>
+                        <!-- END item -->
                         <div class="item">
                           <a  class="probootstrap-featured-news-box">
                             <figure class="probootstrap-media"><img src="{{asset ('img/img-de-4.jpg')}}"   class="img-responsive"></figure>
                             <div class="probootstrap-text">
-                              <h3>Objetivo General</h3>
-                              <p>Elevar el desarrollo humano en muchos jóvenes y adolesentes de NCG</p>
+                              <h3>Temporada de atletismo</h3>
+                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
+                              <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
                             </div>
                           </a>
                         </div>
@@ -243,7 +268,11 @@
                       </div>
                     </div>
                   </div>
-
+                  <div class="row">
+                    <div class="col-md-12 text-center">
+                      <p><a href="{{url('/events')}}" class="btn btn-primary">Ver todos los eventos</a></p>
+                    </div>
+                  </div>
                 </div>
 
               </div>
@@ -521,7 +550,7 @@
         </div>
       </section>
 
-      <!-- <section class="probootstrap-cta">
+      <section class="probootstrap-cta">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -530,7 +559,8 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
+
 
     </div>
 @endsection
