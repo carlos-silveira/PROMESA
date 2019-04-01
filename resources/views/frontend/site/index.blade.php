@@ -57,7 +57,7 @@
               <div class="probootstrap-flex-block">
                 <div class="probootstrap-text probootstrap-animate">
                   <h3>Acerca de la escuela</h3>
-                  <p>Somos una escuela la cual nuestro principal proposito, es que los alumnos con los que contamos o, obtengan las herramientas necesarias para luchar en la vida.</p>
+                  <p>Somos una escuela la cual nuestro principal propósito, es que los alumnos con los que contamos o, obtengan las herramientas necesarias para luchar en la vida.</p>
                   <!-- <p><a href="#" class="btn btn-primary">Learn More</a></p> -->
                 </div>
                 <div class="probootstrap-image probootstrap-animate" style="background-image: url({{asset ('img/img-v1-1.jpg')}}">
@@ -135,7 +135,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center section-heading probootstrap-animate">
-              <h2 class="mb0">Difusion</h2>
+              <h2 class="mb0">Difusión</h2>
             </div>
           </div>
         </div>
@@ -162,8 +162,8 @@
                           <a class="probootstrap-featured-news-box">
                             <figure class="probootstrap-media"><img src="{{asset ('img/img-dn-1.jpg')}}"  class="img-responsive"></figure>
                             <div class="probootstrap-text">
-                              <h3>Graduacion</h3>
-                              <p>Graduacion de los alumnos del salon 5-A</p>
+                              <h3>Graduación</h3>
+                              <p>Graduación de los alumnos del salón 5-A</p>
                               <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
 
                             </div>
@@ -174,8 +174,8 @@
                           <a class="probootstrap-featured-news-box">
                             <figure class="probootstrap-media"><img src="{{asset ('img/img-dn-2.jpg')}}"   class="img-responsive"></figure>
                             <div class="probootstrap-text">
-                              <h3>Ajedres</h3>
-                              <p>Primer lugar en ajedres </p>
+                              <h3>Ajedrez</h3>
+                              <p>Primer lugar en ajedrez</p>
                               <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
 
                             </div>
@@ -186,8 +186,8 @@
                           <a class="probootstrap-featured-news-box">
                             <figure class="probootstrap-media"><img src="{{asset ('img/img-de-3.jpg')}}"  class="img-responsive"></figure>
                             <div class="probootstrap-text">
-                              <h3>Primer lugar en teniss</h3>
-                              <p>El quipo de teniss logro ganar el primer lugar en el torneo de verano</p>
+                              <h3>Primer lugar en tenis</h3>
+                              <p>El equipo de tenis logro ganar el primer lugar en el torneo de verano</p>
                               <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
 
                             </div>
@@ -198,8 +198,8 @@
                           <a class="probootstrap-featured-news-box">
                             <figure class="probootstrap-media"><img src="{{asset ('img/img-de-2.jpg')}}"   class="img-responsive"></figure>
                             <div class="probootstrap-text">
-                              <h3>Primer lugar en futboll</h3>
-                              <p>El quipo de futboll logro ganar el primer lugar en el torneo de verano</p>
+                              <h3>Primer lugar en futbol</h3>
+                              <p>El equipo de futbol logro ganar el primer lugar en el torneo de verano </p>
                               <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
 
 
@@ -225,7 +225,7 @@
                           <a class="probootstrap-featured-news-box">
                             <figure class="probootstrap-media"><img src="{{asset ('img/img-de-1.jpg')}}"  class="img-responsive"></figure>
                             <div class="probootstrap-text">
-                              <h3>Temporada de basquetball</h3>
+                              <h3>Temporada de basquetbol </h3>
                               <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
                               <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
                             </div>
@@ -236,7 +236,7 @@
                           <a class="probootstrap-featured-news-box">
                             <figure class="probootstrap-media"><img src="{{asset ('img/img-de-2.jpg')}}"   class="img-responsive"></figure>
                             <div class="probootstrap-text">
-                              <h3>Temporada de futboll</h3>
+                              <h3>Temporada de futbol</h3>
                               <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
                               <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
                             </div>
@@ -247,7 +247,7 @@
                           <a class="probootstrap-featured-news-box">
                             <figure class="probootstrap-media"><img src="{{asset ('img/img-de-3.jpg')}}"   class="img-responsive"></figure>
                             <div class="probootstrap-text">
-                              <h3>Temporada de teniss</h3>
+                              <h3>Temporada de tenis</h3>
                               <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
                               <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
                             </div>
@@ -287,7 +287,7 @@
           <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
               <h2>Nuestros cursos destacados</h2>
-              <p class="lead">Cumbres cuenta con una gran variedad de cursos para que los estudiantes utilizen todo su potencial</p>
+              <p class="lead">Cumbres cuenta con una gran variedad de cursos para que los estudiantes utilicen todo su potencial </p>
             </div>
           </div>
           <!-- END row -->
@@ -302,7 +302,7 @@
                 <div class="text">
                   <span class="probootstrap-meta"><i class="icon-calendar2"></i> July 10, 2017</span>
                   <h3>Diseño de aplicaciónes</h3>
-                  <p>En este curso se visualisara todo lo necesario para poder realizar diseños de aplicaciones</p>
+                  <p>En este curso se visualizará todo lo necesario para poder realizar diseños de aplicaciones </p>
                   <!-- <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">2,928 students enrolled</span></p> -->
                 </div>
               </div>
@@ -316,7 +316,7 @@
                 <div class="text">
                   <span class="probootstrap-meta"><i class="icon-calendar2"></i> July 10, 2017</span>
                   <h3>Ingeniería Química</h3>
-                  <p>En este curso se visualisara todo lo necesario para poder entender la quimica y sus derivados</p>
+                  <p>En este curso se visualizará todo lo necesario para poder entender la química y sus derivados</p>
                   <!-- <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">7,202 students enrolled</span></p> -->
                 </div>
               </div>
@@ -332,7 +332,7 @@
                 <div class="text">
                   <span class="probootstrap-meta"><i class="icon-calendar2"></i> July 10, 2017</span>
                   <h3>Arte</h3>
-                  <p>En este curso se visualisara todo lo necesario para poder desarrollar tus habilidades artisticas</p>
+                  <p>En este curso se visualizará todo lo necesario para poder desarrollar tus habilidades artisticas</p>
                   <!-- <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">12,582 students enrolled</span></p> -->
                 </div>
               </div>
