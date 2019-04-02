@@ -829,7 +829,7 @@ a:hover, a:focus, a:active {
   bottom: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
+  opacity: 2;
   visibility: hidden;
   -webkit-transition: .3s all;
   transition: .3s all;
@@ -945,7 +945,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-section {
-  padding: 7em 0;
+  padding: 5em 0;
   position: relative;
 }
 
@@ -1047,6 +1047,8 @@ a:hover, a:focus, a:active {
   padding: 3em 0;
   background: #5D2771;
   color: #ffffff;
+  border-style: double solid;
+  border-color: #535354 ;
 }
 
 .probootstrap-cta h2 {

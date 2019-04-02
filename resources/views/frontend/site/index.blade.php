@@ -4,7 +4,7 @@
       <!-- Fixed navbar -->
       <section class="flexslider">
         <ul class="slides">
-          <li style="background-image: url({{asset ('img/img-s1-2.jpg')}}" class="overlay">
+          <li style="background-image: url({{asset ('img/img-s1-1.jpg')}}" class="overlay">
             <div class="container">
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
@@ -15,7 +15,7 @@
               </div>
             </div>
           </li>
-          <li style="background-image: url({{asset ('img/img-s1-3.jpg')}}" class="overlay">
+          <li style="background-image: url({{asset ('img/img-s1-2.jpg')}}" class="overlay">
             <div class="container">
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
@@ -27,7 +27,7 @@
             </div>
 
           </li>
-          <li style="background-image: url({{asset ('img/img-s1-1.jpg')}}" class="overlay">
+          <li style="background-image: url({{asset ('img/img-s1-3.jpg')}}" class="overlay">
             <div class="container">
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
@@ -39,7 +39,16 @@
           </li>
         </ul>
       </section>
-
+      <section class="probootstrap-cta">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="probootstrap-animate" data-animate-effect="fadeInRight">Obtenga su admisión ahora!</h2>
+              <a href="{{url('/register')}}" role="button" class="btn btn-primary btn-lg btn-ghost probootstrap-animate" data-animate-effect="fadeInLeft">Preinscripcion</a>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="probootstrap-section probootstrap-section-colored">
         <div class="container">
           <div class="row">
@@ -60,7 +69,7 @@
                   <p>Somos una escuela la cual nuestro principal propósito, es que los alumnos con los que contamos o, obtengan las herramientas necesarias para luchar en la vida.</p>
                   <!-- <p><a href="#" class="btn btn-primary">Learn More</a></p> -->
                 </div>
-                <div class="probootstrap-image probootstrap-animate" style="background-image: url({{asset ('img/img-v1-1.jpg')}}">
+                <div class="probootstrap-image probootstrap-animate" style="background-image: url({{asset ('img/img-video.jpg')}}">
                   <a href="https://www.youtube.com/watch?v=zDoEH4GfjxA" class="btn-video popup-vimeo"><i class="icon-play3"></i></a>
                 </div>
               </div>
@@ -68,7 +77,68 @@
           </div>
         </div>
       </section>
+      <section class="probootstrap-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
+              <h2>¿Por qué elegir Cumbres?</h2>
+              <p class="lead">Cumbres es una institucion que se preocupa por sus alumnos</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="service left-icon probootstrap-animate">
+                <div class="icon"><i class="icon-checkmark"></i></div>
+                <div class="text">
+                  <h3>Docentes Altamente Capacitados</h3>
+                  <p>Los docentes que imparten clases en Cumbres cuentan con certificados de especialida valorados a nivel internacional</p>
+                </div>
+              </div>
+              <div class="service left-icon probootstrap-animate">
+                <div class="icon"><i class="icon-checkmark"></i></div>
+                <div class="text">
+                  <h3>Instalaciones de Calidad</h3>
+                  <p>Las instalaciones de Cumbres cuentan con equipamiento especialisado y con limpiesa de alta calidad</p>
+                </div>
+              </div>
+              <div class="service left-icon probootstrap-animate">
+                <div class="icon"><i class="icon-checkmark"></i></div>
+                <div class="text">
+                  <h3>Cursos</h3>
+                  <p>Cumbres cuenta con cursos de calidad para un mayor desarrollo de las habilidades</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service left-icon probootstrap-animate">
+                <div class="icon"><i class="icon-checkmark"></i></div>
+                <div class="text">
+                  <h3>Actividades Recreativas</h3>
+                  <p>Se cuenta con equipos de futboll, basquetboll, teniss, atletismo, musica, arte, dansa, entre otras actividades.</p>
+                </div>
+              </div>
 
+              <div class="service left-icon probootstrap-animate">
+                <div class="icon"><i class="icon-checkmark"></i></div>
+                <div class="text">
+                  <h3>Localizacion</h3>
+                  <p>La institucion esta ubicada en un punto estrategico para la tranquilidad de los padres de familia</p>
+                </div>
+              </div>
+
+              <div class="service left-icon probootstrap-animate">
+                <div class="icon"><i class="icon-checkmark"></i></div>
+                <div class="text">
+                  <h3>Seguridad</h3>
+                  <p>Se cuenta con personal encargado de verificar el acceso de personal para que los alumnos esten siempre seguros para tranquilidad de los padres</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- END row -->
+        </div>
+      </section>
       <section class="probootstrap-section" id="probootstrap-counter">
         <div class="container">
 
@@ -80,7 +150,7 @@
                 </div>
                 <div class="probootstrap-text">
                   <span class="probootstrap-counter">
-                    <span class="js-counter" data-from="0" data-to="20203" data-speed="5000" data-refresh-interval="50">1</span>
+                    <span class="js-counter" data-from="0" data-to="300" data-speed="5000" data-refresh-interval="50">1</span>
                   </span>
                   <span class="probootstrap-counter-label">Estudiantes matriculados</span>
                 </div>
@@ -93,7 +163,7 @@
                 </div>
                 <div class="probootstrap-text">
                   <span class="probootstrap-counter">
-                    <span class="js-counter" data-from="0" data-to="139" data-speed="5000" data-refresh-interval="50">1</span>
+                    <span class="js-counter" data-from="0" data-to="50" data-speed="5000" data-refresh-interval="50">1</span>
                   </span>
                   <span class="probootstrap-counter-label">Maestros certificados</span>
                 </div>
@@ -487,79 +557,7 @@
         </div>
       </section>
 
-      <section class="probootstrap-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
-              <h2>¿Por qué elegir Cumbres?</h2>
-              <p class="lead">Cumbres es una institucion que se preocupa por sus alumnos</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="service left-icon probootstrap-animate">
-                <div class="icon"><i class="icon-checkmark"></i></div>
-                <div class="text">
-                  <h3>Docentes Altamente Capacitados</h3>
-                  <p>Los docentes que imparten clases en Cumbres cuentan con certificados de especialida valorados a nivel internacional</p>
-                </div>
-              </div>
-              <div class="service left-icon probootstrap-animate">
-                <div class="icon"><i class="icon-checkmark"></i></div>
-                <div class="text">
-                  <h3>Instalaciones de Calidad</h3>
-                  <p>Las instalaciones de Cumbres cuentan con equipamiento especialisado y con limpiesa de alta calidad</p>
-                </div>
-              </div>
-              <div class="service left-icon probootstrap-animate">
-                <div class="icon"><i class="icon-checkmark"></i></div>
-                <div class="text">
-                  <h3>Cursos</h3>
-                  <p>Cumbres cuenta con cursos de calidad para un mayor desarrollo de las habilidades</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="service left-icon probootstrap-animate">
-                <div class="icon"><i class="icon-checkmark"></i></div>
-                <div class="text">
-                  <h3>Actividades Recreativas</h3>
-                  <p>Se cuenta con equipos de futboll, basquetboll, teniss, atletismo, musica, arte, dansa, entre otras actividades.</p>
-                </div>
-              </div>
 
-              <div class="service left-icon probootstrap-animate">
-                <div class="icon"><i class="icon-checkmark"></i></div>
-                <div class="text">
-                  <h3>Localizacion</h3>
-                  <p>La institucion esta ubicada en un punto estrategico para la tranquilidad de los padres de familia</p>
-                </div>
-              </div>
-
-              <div class="service left-icon probootstrap-animate">
-                <div class="icon"><i class="icon-checkmark"></i></div>
-                <div class="text">
-                  <h3>Seguridad</h3>
-                  <p>Se cuenta con personal encargado de verificar el acceso de personal para que los alumnos esten siempre seguros para tranquilidad de los padres</p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <!-- END row -->
-        </div>
-      </section>
-
-      <section class="probootstrap-cta">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <h2 class="probootstrap-animate" data-animate-effect="fadeInRight">Obtenga su admisión ahora!</h2>
-              <a href="{{url('/register')}}" role="button" class="btn btn-primary btn-lg btn-ghost probootstrap-animate" data-animate-effect="fadeInLeft">Preinscripcion</a>
-            </div>
-          </div>
-        </div>
-      </section>
 
 
     </div>
