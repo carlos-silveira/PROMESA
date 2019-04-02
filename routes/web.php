@@ -14,34 +14,8 @@
 Route::get('/', function () {
     return view('frontend.site.index');
 });
-//Dashboard Routes
-Route::get('/login', function () {
-    return view('frontend.dashboard.login');
-});
-Route::get('/portal', function () {
-    return view('frontend.dashboard.index');
-});
-Route::get('/portal/alumnos', function () {
-    return view('frontend.dashboard.alumnos');
-});
-Route::get('/portal/aspirantes', function () {
-    return view('frontend.dashboard.aspirantes');
-});
-Route::get('/portal/docentes', function () {
-    return view('frontend.dashboard.docentes');
-});
-Route::get('/portal/personal', function () {
-    return view('frontend.dashboard.personal');
-});
-Route::get('/portal/materias', function () {
-    return view('frontend.dashboard.materias');
-});
-Route::get('/portal/calificaciones', function () {
-    return view('frontend.dashboard.calificaciones');
-});
-Route::get('/portal/grupos', function () {
-    return view('frontend.dashboard.grupos');
-});
+//Main Site Routes
+
 Route::get('/about', function () {
     return view('frontend.site.about');
 });
@@ -68,4 +42,17 @@ Route::get('/register', function () {
 });
 Route::get('/teachers', function () {
     return view('frontend.site.teachers');
+});
+Auth::routes();
+
+// Dashboard Routes
+Route::group(['prefix' => 'portal', 'as' => 'portal'], function() {
+  Route::get('/', 'Portal\PortalController@index');
+  Route::get('/alumnos', 'Portal\AlumnosController@index');
+  Route::get('/aspirantes', 'Portal\AspirantesController@index');
+  Route::get('/calificaciones', 'Portal\CalificacionesController@index');
+  Route::get('/docentes', 'Portal\DocentesController@index');
+  Route::get('/grupos', 'Portal\GruposController@index');
+  Route::get('/materias', 'Portal\MateriasController@index');
+  Route::get('/personal', 'Portal\PersonalController@index');
 });

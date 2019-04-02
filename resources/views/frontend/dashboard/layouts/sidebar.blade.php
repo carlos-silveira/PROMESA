@@ -37,7 +37,7 @@
       <div class="bg-white py-2 collapse-inner rounded">
         <a class="collapse-item "{{Request::is('/'?'active' : '')}}"" href="{{url ('portal/alumnos')}}">Alumnos</a>
         <a class="collapse-item "{{Request::is('/'?'active' : '')}}"" href="{{url ('portal/aspirantes')}}">Aspirantes</a>
-        <a class="collapse-item "{{Request::is('/'?'active' : '')}}"" href="{{url ('portal/alumnos')}}">Docentes</a>
+        <a class="collapse-item "{{Request::is('/'?'active' : '')}}"" href="{{url ('portal/docentes')}}">Docentes</a>
         <a class="collapse-item "{{Request::is('/'?'active' : '')}}"" href="{{url ('portal/personal')}}">Personal</a>
       </div>
     </div>
