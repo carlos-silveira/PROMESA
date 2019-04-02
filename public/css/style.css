@@ -967,11 +967,13 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-section.probootstrap-section-colored {
-  background: #C9AF6A;
+  background: #535354;
 }
 
 .probootstrap-section.probootstrap-section-colored .section-heading h2 {
-  color: white;
+  color: #C9AF6A;
+  text-align: center;
+
 }
 
 .probootstrap-section.probootstrap-section-colored .section-heading p {
@@ -1047,8 +1049,10 @@ a:hover, a:focus, a:active {
   padding: 3em 0;
   background: #5D2771;
   color: #ffffff;
-  border-style: double solid;
-  border-color: #535354 ;
+  /*border-style: ridge;
+border-color: #C9AF6A;*/
+
+
 }
 
 .probootstrap-cta h2 {
@@ -1090,7 +1094,7 @@ a:hover, a:focus, a:active {
 
 .probootstrap-cta .btn.btn-ghost {
   width: 200px;
-  border: 1px solid #ffffff;
+  border: 2px solid #C9AF6A ;
   color: #ffffff;
 }
 
@@ -1101,7 +1105,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-cta .btn.btn-ghost:hover {
-  background: #ffffff;
+  background: #C9AF6A;
   color:  	#5D2771;
 }
 
@@ -1432,7 +1436,7 @@ a:hover, a:focus, a:active {
   -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
   border-style: double;
-  border-inline-color: #5D2771;
+  border-color: #5D2771 ;
   border-width: thick;
 }
 
@@ -1470,6 +1474,9 @@ a:hover, a:focus, a:active {
   bottom: 0;
   height: 100%;
   width: 100%;
+  /*border-style: double;
+border-color: #5D2771 ;
+border-width: thick;*/
 }
 
 .probootstrap-flex-block .probootstrap-image .btn-video i {
