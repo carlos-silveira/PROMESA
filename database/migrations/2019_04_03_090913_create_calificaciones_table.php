@@ -14,8 +14,14 @@ class CreateCalificacionesTable extends Migration
     public function up()
     {
         Schema::create('calificaciones', function (Blueprint $table) {
-            $table->increments('id');
-            $table->timestamps();
+          $table->string('codigo_materia');
+          $table->string('codigo_curso');
+          $table->string('anio');
+          $table->integer('p1');
+          $table->integer('p2');
+          $table->integer('p3');
+          $table->integer('p4');
+          $table->integer('promedio');
         });
     }
 

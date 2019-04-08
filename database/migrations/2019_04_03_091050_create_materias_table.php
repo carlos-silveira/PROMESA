@@ -14,8 +14,10 @@ class CreateMateriasTable extends Migration
     public function up()
     {
         Schema::create('materias', function (Blueprint $table) {
-            $table->increments('id');
-            $table->timestamps();
+            $table->increments('codigo_materia');
+            $table->string('materia');
+            $table->string('codigo_curso');
+            $table->string('codigo_maestro');
         });
     }
 

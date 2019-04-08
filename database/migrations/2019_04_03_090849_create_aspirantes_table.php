@@ -14,8 +14,16 @@ class CreateAspirantesTable extends Migration
     public function up()
     {
         Schema::create('aspirantes', function (Blueprint $table) {
-            $table->increments('id');
-            $table->timestamps();
+            $table->increments('codigo_de_ficha');
+            $table->string('nombre');
+            $table->string('apellidos');
+            $table->string('direccion');
+            $table->string('fecha_de_nacimiento');
+            $table->string('sexo');
+            $table->string('tutor');
+            $table->string('codigo_de_curso');
+            $table->string('fecha_matricula');
+            $table->string('status');
         });
     }
 
