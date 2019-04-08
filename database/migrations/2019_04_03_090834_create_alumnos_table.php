@@ -14,14 +14,15 @@ class CreateAlumnosTable extends Migration
     public function up()
     {
         Schema::create('alumnos', function (Blueprint $table) {
-            $table->string('n_matricula');
+            $table->string('matricula');
             $table->string('nombre');
             $table->string('apellidos');
             $table->string('direccion');
+            $table->string('imagen');
             $table->string('fecha_de_nacimiento');
             $table->string('sexo');
             $table->string('tutor');
-            $table->string('ccodigo de curso');
+            $table->string('codigo de curso');
         });
     }
 
