@@ -70,7 +70,7 @@
               </div>
               <hr>
               <div class="text-center">
-                <a class="small" href="{{url('/')}}">Volver a Pagina principal</a>
+                <a class="small" href="{{url('/')}}">Volver a Página principal</a>
               </div>
             </div>
           </div>

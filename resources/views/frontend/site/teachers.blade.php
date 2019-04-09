@@ -19,7 +19,7 @@
               <div class="probootstrap-flex-block">
                 <div class="probootstrap-text probootstrap-animate">
                   <h3>Contratamos maestros certificados para nuestros estudiantes</h3>
-                  <p>Maestros altamente capacitados para las diferentes areas que cuenta el colegio cumbres</p>
+                  <p>Maestros altamente capacitados para las diferentes áreas que cuenta el colegio cumbres</p>
                   <!-- <p><a href="#" class="btn btn-primary">Learn More</a></p> -->
                 </div>
                 <div class="probootstrap-image probootstrap-animate" style="background-image: url({{asset ('img/img-v1-1.jpg')}})">

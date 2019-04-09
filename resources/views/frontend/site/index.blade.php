@@ -44,7 +44,7 @@
           <div class="row">
             <div class="col-md-12">
               <h2 class="probootstrap-animate" data-animate-effect="fadeInRight">Obtenga su admisión ahora!</h2>
-              <a href="{{url('/register')}}" role="button" class="btn btn-primary btn-lg btn-ghost probootstrap-animate" data-animate-effect="fadeInLeft">Preinscripcion</a>
+              <a href="{{url('/register')}}" role="button" class="btn btn-primary btn-lg btn-ghost probootstrap-animate" data-animate-effect="fadeInLeft">Preinscrición</a>
             </div>
           </div>
         </div>
@@ -91,14 +91,14 @@
                 <div class="icon"><i class="icon-checkmark"></i></div>
                 <div class="text">
                   <h3>Docentes Altamente Capacitados</h3>
-                  <p>Los docentes que imparten clases en Cumbres cuentan con certificados de especialida valorados a nivel internacional</p>
+                  <p>Los docentes que imparten clases en Cumbres cuentan con certificados de especialidad valorados a nivel internacional</p>
                 </div>
               </div>
               <div class="service left-icon probootstrap-animate">
                 <div class="icon"><i class="icon-checkmark"></i></div>
                 <div class="text">
                   <h3>Instalaciones de Calidad</h3>
-                  <p>Las instalaciones de Cumbres cuentan con equipamiento especialisado y con limpiesa de alta calidad</p>
+                  <p>Las instalaciones de Cumbres cuentan con equipamiento especializado y con limpieza de alta calidad</p>
                 </div>
               </div>
               <div class="service left-icon probootstrap-animate">
@@ -114,15 +114,16 @@
                 <div class="icon"><i class="icon-checkmark"></i></div>
                 <div class="text">
                   <h3>Actividades Recreativas</h3>
-                  <p>Se cuenta con equipos de futboll, basquetboll, teniss, atletismo, musica, arte, dansa, entre otras actividades.</p>
+                  <p>Se cuenta con equipos de futbol, basquetbol, tenis, atletismo, música, arte, danza,
+                    entre otras actividades.</p>
                 </div>
               </div>
 
               <div class="service left-icon probootstrap-animate">
                 <div class="icon"><i class="icon-checkmark"></i></div>
                 <div class="text">
-                  <h3>Localizacion</h3>
-                  <p>La institucion esta ubicada en un punto estrategico para la tranquilidad de los padres de familia</p>
+                  <h3>Localización</h3>
+                  <p>La institución está ubicada en un punto estratégico para la tranquilidad de los padres de familia</p>
                 </div>
               </div>
 
@@ -130,7 +131,8 @@
                 <div class="icon"><i class="icon-checkmark"></i></div>
                 <div class="text">
                   <h3>Seguridad</h3>
-                  <p>Se cuenta con personal encargado de verificar el acceso de personal para que los alumnos esten siempre seguros para tranquilidad de los padres</p>
+                  <p>Se cuenta con personal encargado de verificar el acceso de
+                     personal para que los alumnos estén siempre seguros para tranquilidad de los padres</p>
                 </div>
               </div>
 

@@ -20,7 +20,7 @@
                 <div class="probootstrap-text probootstrap-animate">
                   <div class="text-uppercase probootstrap-uppercase">Curso destacado</div>
                   <h3>Diseño de aplicaciónes</h3>
-                  <p>En este curso se visualisara todo lo necesario para poder realizar diseños de aplicaciones</p>
+                  <p>En este curso se visualizará todo lo necesario para poder realizar diseños de aplicaciones</p>
                   <!-- <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">2,928 students enrolled</span></p> -->
                 </div>
                 <div class="probootstrap-image probootstrap-animate" style="background-image: url({{asset ('img/img-sc-1.jpg')}})">
@@ -45,7 +45,7 @@
                 <div class="text">
                   <span class="probootstrap-meta"><i class="icon-calendar2"></i> July 10, 2017</span>
                   <h3>Diseño de aplicaciónes</h3>
-                  <p>En este curso se visualisara todo lo necesario para poder realizar diseños de aplicaciones</p>
+                  <p>En este curso se visualizará todo lo necesario para poder realizar diseños de aplicaciones</p>
                   <!-- <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">2,928 students enrolled</span></p> -->
                 </div>
               </div>
@@ -59,7 +59,7 @@
                 <div class="text">
                   <span class="probootstrap-meta"><i class="icon-calendar2"></i> July 10, 2017</span>
                   <h3>Ingeniería Química</h3>
-                  <p>En este curso se visualisara todo lo necesario para poder entender la quimica y sus derivados</p>
+                  <p>En este curso se visualizará todo lo necesario para poder entender la quimica y sus derivados</p>
                   <!-- <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">7,202 students enrolled</span></p> -->
                 </div>
               </div>
@@ -75,7 +75,7 @@
                 <div class="text">
                   <span class="probootstrap-meta"><i class="icon-calendar2"></i> July 10, 2017</span>
                   <h3>Arte</h3>
-                  <p>En este curso se visualisara todo lo necesario para poder desarrollar tus habilidades artisticas</p>
+                  <p>En este curso se visualizará todo lo necesario para poder desarrollar tus habilidades artisticas</p>
                   <!-- <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">12,582 students enrolled</span></p> -->
                 </div>
               </div>
@@ -88,8 +88,8 @@
                 </div>
                 <div class="text">
                   <span class="probootstrap-meta"><i class="icon-calendar2"></i> July 10, 2017</span>
-                  <h3>Musica</h3>
-                  <p>En este curso se visualisara todo lo necesario para desarrollar tus habilidades musicales</p>
+                  <h3>Música</h3>
+                  <p>En este curso se visualizará todo lo necesario para desarrollar tus habilidades musicales</p>
                   <!-- <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">9,582 students enrolled</span></p> -->
                 </div>
               </div>

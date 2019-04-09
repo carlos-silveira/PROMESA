@@ -28,5 +28,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Alumno extends Model
 {
-  'n_matricula','nombre','apellidos','direccion','fecha_nacimiento','sexo','tutor','codigo_de_curso'
+  protected $table ='alumnos';
+  protected $primaryKey= 'matricula';
+protected $fillable = [
+  'matricula','nombre','apellidos','direccion','imagen','fecha_nacimiento','sexo','tutor','codigo_de_curso'
+];
 }
