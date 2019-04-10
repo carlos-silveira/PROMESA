@@ -32,6 +32,8 @@ class Alumno extends Model
   protected $table ='alumnos';
   protected $primaryKey= 'matricula';
 protected $fillable = [
-  'matricula','nombre','apellidos','direccion','imagen','fecha_nacimiento','sexo','tutor','codigo_de_curso'
+  'n_matricula','nombre','apellidos','direccion','imagen','fecha_de_nacimiento','sexo','tutor','codigo_de_curso'
 ];
+
+
 }

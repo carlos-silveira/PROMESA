@@ -48,11 +48,19 @@ Auth::routes();
 // Dashboard Routes
 Route::group(['prefix' => 'portal', 'as' => 'portal'], function() {
   Route::get('/', 'Portal\PortalController@index');
-  Route::post('/alumnos', 'Portal\AlumnosController@index');
+  Route::get('/alumnos', 'Portal\AlumnosController@index');
+  Route::delete('/alumnos/{id}', 'Portal\AlumnosController@destroy');
+  Route::post('/alumnos', 'Portal\AlumnosController@store');
   Route::get('/aspirantes', 'Portal\AspirantesController@index');
+  // Route::post('/aspirantes', 'Portal\AspirantesController@store');
   Route::get('/calificaciones', 'Portal\CalificacionesController@index');
+  // Route::post('/calificaciones', 'Portal\CalificacionesController@store');
   Route::get('/docentes', 'Portal\DocentesController@index');
+  // Route::post('/docentes', 'Portal\DocentesController@post');
   Route::get('/grupos', 'Portal\GruposController@index');
+  // Route::post('/grupos', 'Portal\GruposController@store');
   Route::get('/materias', 'Portal\MateriasController@index');
+  // Route::store('/materias', 'Portal\MateriasController@store');
   Route::get('/personal', 'Portal\PersonalController@index');
+  // Route::post('/personal', 'Portal\PersonalController@store');
 });

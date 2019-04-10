@@ -21,8 +21,8 @@
 </div>
 @endif
 @if($message=Session::get('Listo'))
-<div class="alert alert-warning alert-dismissible fade show" role="alert">
-<h5>Error:</h5>
+<div class="alert alert-success alert-dismissible fade show" role="alert">
+<h5>Todo bien:</h5>
 <ul>
   @foreach($errors->all() as $error)
   <li>{{$error}}</li>
@@ -48,6 +48,10 @@
         <label for="">Apellidos</label>
         <input required type="text" class="form-control" name="apellidos" placeholder="Apellidos" value="">
       </div>
+      <div class="col">
+      <label for="">Direccion</label>
+      <input required type="text" class="form-control" name="direccion" placeholder="Direccion" value="">
+    </div>
         <div class="col">
           <label for="">Imagen</label>
           <input required type="file" class="form-control" name="imagen" placeholder="Imagen" value="">
@@ -59,13 +63,17 @@
         <div class="col">
           <label for="">Sexo</label>
           <select class="form-control" name="sexo">
-            <option value="volvo">Masculino</option>
-            <option value="saab">Femenino</option>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
           </select>
         </div>
         <div class="col">
           <label for="">Tutor</label>
           <input required type="text" class="form-control" name="tutor" placeholder="Tutor"value="">
+        </div>
+        <div class="col">
+          <label for="">Codigo de curso</label>
+          <input required type="text" class="form-control" name="codigo_de_curso" placeholder="Codigo de curso"value="">
           <button type="submit" class ="btn btn-primary"name="button">Insertar</button>
           <button type="reset" value="reset" class="btn btn-warning" name="button">Reiniciar</button>
 
@@ -110,15 +118,25 @@
                   <tbody>
                       @foreach ($Alumnos as $a)
                       <tr>
-                        <td>{{ $a->matricula}}</td>
+                        <td>{{ $a->n_matricula}}</td>
                         <td>{{ $a->nombre}}</td>
                         <td>{{ $a->apellidos}}</td>
-                        <td>imagen</td>
+                      <td>imagen</td>
                         <td>{{ $a->fecha_de_nacimiento}}</td>
                         <td>{{ $a->sexo}}</td>
                         <td>{{ $a->tutor}}</td>
                         <td>{{ $a->codigo_de_curso}}</td>
+                        <td>
+                          <button type="button" class="btn btn-outline-primary btn-sm"name="button"> <i class="fas fa-edit"></i> </button>
+                          <form class="" action="{{url('/portal/alumnos',['id'=>$a->id])}}" method="post">
+  @csrf
+                            <input type="hidden" name="id" value="{{$a->n_matricula}}">
+                            <input type="hidden" name="_method" value="delete">
 
+
+                      <button type="submit" class="btn btn-outline-danger btn-sm"name="button"> <i class="fas fa-trash"></i> </button>
+                          </form>
+                        </td>
                       </tr>
                       @endforeach
                   </tbody>

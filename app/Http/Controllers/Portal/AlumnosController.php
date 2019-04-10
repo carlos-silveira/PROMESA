@@ -22,7 +22,7 @@ class AlumnosController extends Controller
   }
   public function store(Request $request){
         $validator=Validator::make($request->all(),[
-          'matricula'=>'required|max:8',
+
           'nombre'=>'required|max:255',
           'apellidos'=>'required|max:255',
           'direccion'=>'required|max:255',
@@ -44,8 +44,10 @@ class AlumnosController extends Controller
           $request->imagen->move($destino,$image_name);
 
         //Insertar
+        $last_id= intval(Alumno::OrderBy('id','desc')->first()->id);
+
         $alu=Alumno::create([
-          'matricula'=>$request->matricula,
+          'n_matricula'=>'19CNC'.($last_id+1),
           'nombre'=>$request->nombre,
           'apellidos'=>$request->apellidos,
           'img'=>$image_name,
