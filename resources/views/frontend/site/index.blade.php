@@ -4,42 +4,44 @@
       <!-- Fixed navbar -->
       <section class="flexslider">
         <ul class="slides">
-          <li style="background-image: url({{asset ('img/img-s1-1.jpg')}}" class="overlay">
+          <li style="background-image: url({{asset ('img/slider_1_2.png')}}" class="overlay">
             <div class="container">
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                   <div class="probootstrap-slider-text text-center">
-                    <h1 class="probootstrap-heading probootstrap-animate"></h1>
+                    <h1 class="probootstrap-heading probootstrap-animate">Obtenga su admisión ahora!</h1>
+                    <!-- <h2 class="probootstrap-animate" data-animate-effect="fadeInRight">Obtenga su admisión ahora!</h2> -->
+                    <a href="{{url('/register')}}" role="button" class="btn btn-primary btn-lg btn-ghost probootstrap-animate" data-animate-effect="fadeInLeft">Preinscripcion</a>
                   </div>
                 </div>
               </div>
             </div>
           </li>
-          <li style="background-image: url({{asset ('img/img-s1-2.jpg')}}" class="overlay">
+          <li style="background-image: url({{asset ('img/slider_1_1.png')}}" class="overlay">
             <div class="container">
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                   <div class="probootstrap-slider-text text-center">
-                    <h1 class="probootstrap-heading probootstrap-animate"></h1>
+                    <h1 class="probootstrap-heading probootstrap-animate">CALIDAD CALIDEZ LIDERAZGO</h1>
                   </div>
                 </div>
               </div>
             </div>
 
           </li>
-          <li style="background-image: url({{asset ('img/img-s1-3.jpg')}}" class="overlay">
+          <li style="background-image: url({{asset ('img/slider_1_3.png')}}" class="overlay">
             <div class="container">
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                   <div class="probootstrap-slider-text text-center">
-                    <h1 class="probootstrap-heading probootstrap-animate"></div>
+                    <h1 class="probootstrap-heading probootstrap-animate">Todos buscamos que nuestros hijos lleguen a la cima</div>
                 </div>
               </div>
             </div>
           </li>
         </ul>
       </section>
-      <section class="probootstrap-cta">
+      <!-- <section class="probootstrap-cta">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -48,7 +50,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <section class="probootstrap-section probootstrap-section-colored">
         <div class="container">
           <div class="row">
@@ -82,7 +84,7 @@
           <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
               <h2>¿Por qué elegir Cumbres?</h2>
-              <p class="lead">Cumbres es una institucion que se preocupa por sus alumnos</p>
+              <p class="lead">Colegio Nacional Cumbres una propuesta de educación secundaria en NCG con un modelo único y propio de Educación; ampliado y progresivo para obtener un alto desempeño académico y alto rendimiento artístico, cultural y deportivo.</p>
             </div>
           </div>
           <div class="row">
@@ -230,7 +232,7 @@
                       <div class="owl-carousel" id="owl1">
                         <div class="item">
                           <a class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="{{asset ('img/img-dn-1.jpg')}}"  class="img-responsive"></figure>
+                            <figure class="probootstrap-media"><img src="{{asset ('img/img_sm_3.jpg')}}"  class="img-responsive"></figure>
                             <div class="probootstrap-text">
                               <h3>Graduación</h3>
                               <p>Graduación de los alumnos del salón 5-A</p>
@@ -242,7 +244,7 @@
                         <!-- END item -->
                         <div class="item">
                           <a class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="{{asset ('img/img-dn-2.jpg')}}"   class="img-responsive"></figure>
+                            <figure class="probootstrap-media"><img src="{{asset ('img/img_sm_3.jpg')}}"   class="img-responsive"></figure>
                             <div class="probootstrap-text">
                               <h3>Ajedrez</h3>
                               <p>Primer lugar en ajedrez</p>
@@ -254,7 +256,7 @@
                         <!-- END item -->
                         <div class="item">
                           <a class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="{{asset ('img/img-de-3.jpg')}}"  class="img-responsive"></figure>
+                            <figure class="probootstrap-media"><img src="{{asset ('img/img_sm_3.jpg')}}"  class="img-responsive"></figure>
                             <div class="probootstrap-text">
                               <h3>Primer lugar en tenis</h3>
                               <p>El equipo de tenis logro ganar el primer lugar en el torneo de verano</p>
@@ -266,7 +268,7 @@
                         <!-- END item -->
                         <div class="item">
                           <a class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="{{asset ('img/img-de-2.jpg')}}"   class="img-responsive"></figure>
+                            <figure class="probootstrap-media"><img src="{{asset ('img/img_sm_3.jpg')}}"   class="img-responsive"></figure>
                             <div class="probootstrap-text">
                               <h3>Primer lugar en futbol</h3>
                               <p>El equipo de futbol logro ganar el primer lugar en el torneo de verano </p>
@@ -293,7 +295,7 @@
                       <div class="owl-carousel" id="owl2">
                         <div class="item">
                           <a class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="{{asset ('img/img-de-1.jpg')}}"  class="img-responsive"></figure>
+                            <figure class="probootstrap-media"><img src="{{asset ('img/img_sm_3.jpg')}}"  class="img-responsive"></figure>
                             <div class="probootstrap-text">
                               <h3>Temporada de basquetbol </h3>
                               <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
@@ -304,7 +306,7 @@
                         <!-- END item -->
                         <div class="item">
                           <a class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="{{asset ('img/img-de-2.jpg')}}"   class="img-responsive"></figure>
+                            <figure class="probootstrap-media"><img src="{{asset ('img/img_sm_3.jpg')}}"   class="img-responsive"></figure>
                             <div class="probootstrap-text">
                               <h3>Temporada de futbol</h3>
                               <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
@@ -315,7 +317,7 @@
                         <!-- END item -->
                         <div class="item">
                           <a class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="{{asset ('img/img-de-3.jpg')}}"   class="img-responsive"></figure>
+                            <figure class="probootstrap-media"><img src="{{asset ('img/img_sm_3.jpg')}}"   class="img-responsive"></figure>
                             <div class="probootstrap-text">
                               <h3>Temporada de tenis</h3>
                               <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
@@ -326,7 +328,7 @@
                         <!-- END item -->
                         <div class="item">
                           <a  class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="{{asset ('img/img-de-4.jpg')}}"   class="img-responsive"></figure>
+                            <figure class="probootstrap-media"><img src="{{asset ('img/img_sm_3.jpg')}}"   class="img-responsive"></figure>
                             <div class="probootstrap-text">
                               <h3>Temporada de atletismo</h3>
                               <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
@@ -366,7 +368,7 @@
               <div class="probootstrap-service-2 probootstrap-animate">
                 <div class="image">
                   <div class="image-bg">
-                    <img src="{{asset ('img/img-sc-1.jpg')}}">
+                    <img src="{{asset ('img/img_sm_3.jpg')}}">
                   </div>
                 </div>
                 <div class="text">
@@ -380,7 +382,7 @@
               <div class="probootstrap-service-2 probootstrap-animate">
                 <div class="image">
                   <div class="image-bg">
-                    <img src="{{asset ('img/img-sc-2.jpg')}}">
+                    <img src="{{asset ('img/img_sm_3.jpg')}}">
                   </div>
                 </div>
                 <div class="text">
@@ -396,7 +398,7 @@
               <div class="probootstrap-service-2 probootstrap-animate">
                 <div class="image">
                   <div class="image-bg">
-                    <img src="{{asset ('img/img-sc-3.jpg')}}">
+                    <img src="{{asset ('img/img_sm_3.jpg')}}">
                   </div>
                 </div>
                 <div class="text">
@@ -410,7 +412,7 @@
               <div class="probootstrap-service-2 probootstrap-animate">
                 <div class="image">
                   <div class="image-bg">
-                    <img src="{{asset ('img/img-sc-4.jpg')}}">
+                    <img src="{{asset ('img/img_sm_3.jpg')}}">
                   </div>
                 </div>
                 <div class="text">
@@ -441,7 +443,7 @@
             <div class="col-md-3 col-sm-6">
               <div class="probootstrap-teacher text-center probootstrap-animate">
                 <figure class="media">
-                  <img src="img/perfil-teacher-2.jpg"   class="img-responsive">
+                  <img src="img/person_5.jpg"   class="img-responsive">
                 </figure>
                 <div class="text">
                   <h3>Chris Worth</h3>
@@ -458,7 +460,7 @@
             <div class="col-md-3 col-sm-6">
               <div class="probootstrap-teacher text-center probootstrap-animate">
                 <figure class="media">
-                  <img src="img/perfil-teacher-1.jpg"   class="img-responsive">
+                  <img src="img/person_5.jpg"   class="img-responsive">
                 </figure>
                 <div class="text">
                   <h3>Janet Morris</h3>
@@ -476,7 +478,7 @@
             <div class="col-md-3 col-sm-6">
               <div class="probootstrap-teacher text-center probootstrap-animate">
                 <figure class="media">
-                  <img src="img/perfil-teacher-1.jpg"   class="img-responsive">
+                  <img src="img/person_5.jpg"   class="img-responsive">
                 </figure>
                 <div class="text">
                   <h3>Linda Reyez</h3>
@@ -493,7 +495,7 @@
             <div class="col-md-3 col-sm-6">
               <div class="probootstrap-teacher text-center probootstrap-animate">
                 <figure class="media">
-                  <img src="img/perfil-teacher-1.jpg"   class="img-responsive">
+                  <img src="img/person_5.jpg"   class="img-responsive">
                 </figure>
                 <div class="text">
                   <h3>Jessa Sy</h3>
@@ -527,7 +529,7 @@
 
                   <div class="probootstrap-testimony-wrap text-center">
                     <figure>
-                      <img src="img/perfil-teacher-2.jpg"  >
+                      <img src="img/person_5.jpg"  >
                     </figure>
                     <blockquote class="quote">&ldquo;La institusion Cumbres a sido una de las mejores en la que e estado, ya que cuenta con un equipo de docentes altamente capacitados y unas instalaciones de calidad.&rdquo; <cite class="author"> &mdash; <span>Mike Fisher</span></cite></blockquote>
                   </div>
@@ -536,7 +538,7 @@
                 <div class="item">
                   <div class="probootstrap-testimony-wrap text-center">
                     <figure>
-                      <img src="img/perfil-teacher-2.jpg"  >
+                      <img src="img/person_5.jpg"  >
                     </figure>
                     <blockquote class="quote">&ldquo;La institusion Cumbres a sido una de las mejores en la que e estado, ya que cuenta con un equipo de docentes altamente capacitados y unas instalaciones de calidad.&rdquo; <cite class="author"> &mdash;<span>Jorge Smith</span></cite></blockquote>
                   </div>
@@ -544,7 +546,7 @@
                 <div class="item">
                   <div class="probootstrap-testimony-wrap text-center">
                     <figure>
-                      <img src="img/perfil-teacher-2.jpg" >
+                      <img src="img/person_5.jpg" >
                     </figure>
                     <blockquote class="quote">&ldquo;La institusion Cumbres a sido una de las mejores en la que e estado, ya que cuenta con un equipo de docentes altamente capacitados y unas instalaciones de calidad.&rdquo; <cite class="author">&mdash; <span>Brandon White</span></cite></blockquote>
                   </div>
