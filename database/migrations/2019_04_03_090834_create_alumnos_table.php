@@ -22,7 +22,7 @@ class CreateAlumnosTable extends Migration
             $table->string('fecha_de_nacimiento');
             $table->string('sexo');
             $table->string('tutor');
-            $table->string('codigo de curso');
+            $table->string('codigo_de_curso');
         });
     }
 

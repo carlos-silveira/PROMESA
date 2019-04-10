@@ -48,7 +48,7 @@ Auth::routes();
 // Dashboard Routes
 Route::group(['prefix' => 'portal', 'as' => 'portal'], function() {
   Route::get('/', 'Portal\PortalController@index');
-  Route::get('/alumnos', 'Portal\AlumnosController@index');
+  Route::post('/alumnos', 'Portal\AlumnosController@index');
   Route::get('/aspirantes', 'Portal\AspirantesController@index');
   Route::get('/calificaciones', 'Portal\CalificacionesController@index');
   Route::get('/docentes', 'Portal\DocentesController@index');
