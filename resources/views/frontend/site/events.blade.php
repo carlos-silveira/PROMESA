@@ -19,8 +19,9 @@
               <div class="probootstrap-flex-block">
                 <div class="probootstrap-text probootstrap-animate">
                   <div class="text-uppercase probootstrap-uppercase">Eventos</div>
-                  <h3>Eventos institucionales y recrativos</h3>
-                  <p>Colegio Cumbres cuenta con eventos que ayudan a la socialisacion de los alumnos, docentes y padres de familia</p>
+                  <h3>Eventos institucionales y recreativos</h3>
+                  <p>Colegio Cumbres cuenta con eventos que ayudan a la socialización
+                     de los alumnos, docentes y padres de familia</p>
                   <!-- <p>
                     <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
                     <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
@@ -44,7 +45,7 @@
               <a href="#" class="probootstrap-featured-news-box">
                 <figure class="probootstrap-media"><img src="{{asset ('img/img-de-1.jpg')}}" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
                 <div class="probootstrap-text">
-                  <h3>Temporada de basquetball</h3>
+                  <h3>Temporada de basquetbol</h3>
                   <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
                   <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
                 </div>
@@ -54,7 +55,7 @@
               <a href="#" class="probootstrap-featured-news-box">
                 <figure class="probootstrap-media"><img src="{{asset ('img/img-de-2.jpg')}}" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
                 <div class="probootstrap-text">
-                  <h3>Temporada de futboll</h3>
+                  <h3>Temporada de futbol</h3>
                   <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
                   <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
                 </div>
@@ -65,7 +66,7 @@
               <a href="#" class="probootstrap-featured-news-box">
                 <figure class="probootstrap-media"><img src="{{asset ('img/img-de-3.jpg')}}" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
                 <div class="probootstrap-text">
-                  <h3>Temporada de teniss</h3>
+                  <h3>Temporada de tenis</h3>
                   <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
                   <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
                 </div>

@@ -1234,7 +1234,6 @@ border-color: #C9AF6A;*/
   z-index: 9999;
   -webkit-transition: .3s all;
   transition: .3s all;
-  opacity: 0;
   visibility: hidden;
 }
 

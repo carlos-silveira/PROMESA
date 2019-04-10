@@ -44,8 +44,8 @@
             <ul class="dropdown-menu">
               <li class="{{Request::is('/about'?'active' : '')}}"><a href="{{url('/about')}}">Sobre nosotros</a></li>
               <li class="{{Request::is('/curses'?'active' : '')}}"><a href="{{url('/courses')}}">Cursos</a></li>
-              <li class="{{Request::is('/course-single'?'active' : '')}}"><a href="{{url('/course-single')}}">Curso indibidual</a></li>
-              <li class="{{Request::is('/galeria'?'active' : '')}}"><a href="{{url('/galeria')}}">Galeria</a></li>
+              <li class="{{Request::is('/course-single'?'active' : '')}}"><a href="{{url('/course-single')}}">Curso individual</a></li>
+              <li class="{{Request::is('/galeria'?'active' : '')}}"><a href="{{url('/galeria')}}">Galería</a></li>
               <!-- <li class="dropdown-submenu dropdown">
                 <a href="#" data-toggle="dropdown" class="dropdown-toggle"><span>Sub Menu</span></a>
                 <ul class="dropdown-menu">
@@ -59,8 +59,8 @@
             </ul>
           </li>
           <li class="{{Request::is('/contact'?'active' : '')}}"><a href="{{url('/contact')}}">Contacto</a></li>
-            <li class="{{Request::is('/login'?'active' : '')}}"><a href="{{url('/login')}}">Iniciar Sesion</a></li>
-            <li  class=""><a class="btn-registrar" href="{{url('/register')}}">Preinscripcion</a></li>
+            <li class="{{Request::is('/login'?'active' : '')}}"><a href="{{url('/login')}}">Iniciar Sesión</a></li>
+            <li  class="{{Request::is('/Registrar'?'active' : '')}}"><a class="btn-registrar" href="{{url('/Registrar')}}">Registrar</a></li>
         </ul>
       </div>
     </div>

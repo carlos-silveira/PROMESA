@@ -20,7 +20,7 @@
                 <div class="probootstrap-text probootstrap-animate">
                   <div class="text-uppercase probootstrap-uppercase">Noticias destacadas</div>
                   <h3>Competencias escolares</h3>
-                  <p>En el Colegio Cumbres logra obtener el primer lugar en futboll </p>
+                  <p>En el Colegio Cumbres logra obtener el primer lugar en futbol </p>
                   <!-- <p>
                     <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
                     <span class="probootstrap-location"><i class="icon-user2"></i>By Admin</span>
@@ -44,8 +44,8 @@
               <a href="#" class="probootstrap-featured-news-box">
                 <figure class="probootstrap-media"><img src="{{asset ('img/img-dn-1.jpg')}}" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
                 <div class="probootstrap-text">
-                  <h3>Graduacion</h3>
-                  <p>Graduacion de los alumnos del salon 5-A</p>
+                  <h3>Graduación</h3>
+                  <p>Graduación de los alumnos del salon 5-A</p>
                   <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
                   <span class="probootstrap-location"><i class="icon-user2"></i>By Admin</span>
                 </div>
@@ -55,8 +55,8 @@
               <a href="#" class="probootstrap-featured-news-box">
                 <figure class="probootstrap-media"><img src="{{asset ('img/img-dn-2.jpg')}}" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
                 <div class="probootstrap-text">
-                  <h3>Ajedres</h3>
-                  <p>Primer lugar en ajedres</p>
+                  <h3>Ajedrez</h3>
+                  <p>Primer lugar en ajedrez</p>
                   <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
                   <span class="probootstrap-location"><i class="icon-user2"></i>By Admin</span>
                 </div>
@@ -67,8 +67,8 @@
               <a href="#" class="probootstrap-featured-news-box">
                 <figure class="probootstrap-media"><img src="{{asset ('img/img-de-3.jpg')}}" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
                 <div class="probootstrap-text">
-                  <h3>Primer lugar en teniss</h3>
-                  <p>El quipo de teniss logro ganar el primer lugar en el torneo de verano</p>
+                  <h3>Primer lugar en tenis</h3>
+                  <p>El equipo de tenis logro ganar el primer lugar en el torneo de verano</p>
                   <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
                   <span class="probootstrap-location"><i class="icon-user2"></i>By Admin</span>
                 </div>
