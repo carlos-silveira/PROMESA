@@ -36,7 +36,7 @@
 @endif
 
 <!-- Agregar Alumno -->
-<h4>Agregar Productos</h4>
+<h4>Aspirantes</h4>
       <form class="" action="/portal/alumnos" method="post" enctype="multipart/form-data">
         @csrf
       <div class="form-row">
