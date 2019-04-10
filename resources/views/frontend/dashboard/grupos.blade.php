@@ -41,37 +41,19 @@
         @csrf
       <div class="form-row">
         <div class="col">
-          <label for="">Nombre</label>
-          <input required type="text" class="form-control" name="nombre" placeholder="Nombre" value="">
+          <label for="">Codigo de grupo</label>
+          <input required type="text" class="form-control" name="cod_grupo" placeholder="Cod_grupo" value="">
         </div>
         <div class="col">
-        <label for="">Apellidos</label>
-        <input required type="text" class="form-control" name="apellidos" placeholder="Apellidos" value="">
-      </div>
-        <div class="col">
-          <label for="">Imagen</label>
-          <input required type="file" class="form-control" name="imagen" placeholder="Imagen" value="">
+        <label for="">Curso</label>
+        <input required type="text" class="form-control" name="curso" placeholder="Curso" value="">
         </div>
         <div class="col">
-          <label for="">Fecha de nacimiento</label>
-          <input required type="date" class="form-control" name="fecha_de_nacimiento" placeholder="" value="">
-        </div>
-        <div class="col">
-          <label for="">Sexo</label>
-          <select class="form-control" name="sexo">
-            <option value="volvo">Masculino</option>
-            <option value="saab">Femenino</option>
-          </select>
-        </div>
-        <div class="col">
-          <label for="">Tutor</label>
-          <input required type="text" class="form-control" name="tutor" placeholder="Tutor"value="">
+          <label for="">Modalidad</label>
+          <input required type="text" class="form-control" name="modalidad" placeholder="Modalidad"value="">
           <button type="submit" class ="btn btn-primary"name="button">Insertar</button>
           <button type="reset" value="reset" class="btn btn-warning" name="button">Reiniciar</button>
-
         </div>
-
-
       </form>
       </div>
 
@@ -85,40 +67,24 @@
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                   <thead>
                     <tr>
-                      <th>Matricula</th>
-                      <th>Nombre</th>
-                      <th>Apellidos</th>
-                      <th>Imagen</th>
-                      <th>Fecha de nacimiento</th>
-                      <th>Sexo</th>
-                      <th>Tutor</th>
+                      <th>Codigo de Grupo</th>
                       <th>Curso</th>
+                      <th>Modalidad</th>
                     </tr>
                   </thead>
                   <tfoot>
                     <tr>
-                      <th>Matricula</th>
-                      <th>Nombre</th>
-                      <th>Apellidos</th>
-                      <th>Imagen</th>
-                      <th>Fecha de nacimiento</th>
-                      <th>Sexo</th>
-                      <th>Tutor</th>
+                      <th>Codigo de Grupo</th>
                       <th>Curso</th>
+                      <th>Modalidad</th>
                     </tr>
                   </tfoot>
                   <tbody>
-                      @foreach ($Alumnos as $a)
+                      @foreach ($Grupos as $a)
                       <tr>
-                        <td>{{ $a->matricula}}</td>
-                        <td>{{ $a->nombre}}</td>
-                        <td>{{ $a->apellidos}}</td>
-                        <td>imagen</td>
-                        <td>{{ $a->fecha_de_nacimiento}}</td>
-                        <td>{{ $a->sexo}}</td>
-                        <td>{{ $a->tutor}}</td>
-                        <td>{{ $a->codigo_de_curso}}</td>
-
+                        <td>{{ $a->cod_grupo}}</td>
+                        <td>{{ $a->curso}}</td>
+                        <td>{{ $a->modalidad}}</td>
                       </tr>
                       @endforeach
                   </tbody>
