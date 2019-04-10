@@ -20,7 +20,7 @@ class CreateDocentesTable extends Migration
             $table->string('especialidad');
             $table->string('telefono');
             $table->string('fecha_de_nacimiento');
-            $table->string('curp');
+            $table->string('curo');
             $table->string('email');
         });
     }
