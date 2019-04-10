@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  background: #EFF0F4;
+  background: white;
   color: #535354;
   line-height: 28px;
   font-size: 15px;
@@ -249,6 +249,11 @@ a:hover, a:focus, a:active {
   right: 80px;
   top: 13px;
   z-index: 100;
+}
+
+  elemento .about >div {
+  	text-align: center;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -1658,7 +1663,7 @@ border-width: thick;*/
   /* background:  	#C9AF6A; */
   top: -40px;
   /* -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1); */  
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1); */
   background: rgba(166,123,43,1);
   background: -moz-linear-gradient(top, rgba(166,123,43,1) 0%, rgba(191,157,95,1) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(166,123,43,1)), color-stop(100%, rgba(191,157,95,1)));
