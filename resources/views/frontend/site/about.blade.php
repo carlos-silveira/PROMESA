@@ -52,7 +52,26 @@
 
         </div>
       </section>
+      <section>
 
+      </section>
+      <div class="col-md-3 col-md-push-1" ><id="about">
+        <h2>Misión</h2>
+        <p>Generar condiciones y espacios para formar una comunidad estudiantil
+           moralmente responsable en distintas áreas de conocimiento, deporte, artes y desarrollo humano.<p></div>
+      <div class="col-md-4 col-md-push-1",  style="text-align: center; left: 144px;"><id="about">
+        <h2>Objetivo de desarrollo misional y General</h2>
+        <p>Colegio cumbres cuenta excelentes docentes capacitados
+           para el desarrollo de los conocimientos de nuestros alumnos,
+           para así formar personas con un futuro brillante y con un potencial para cualquier trabajo.</p>
+        <!-- <p>Quis explicabo veniam labore ratione illo vero voluptate a deserunt incidunt odio aliquam commodi blanditiis voluptas error non rerum temporibus optio accusantium!</p> -->
+      </div>
+      <div class="col-md-3 col-md-push-2"><id="about">
+        <h2>Visión</h2>
+        <p>Generar ciudadanos moralmente responsables, y elevar el desarrollo humano en muchos jóvenes y adolescentes de NCG</p>
+        <!-- <p>Quis explicabo veniam labore ratione illo vero voluptate a deserunt incidunt odio aliquam commodi blanditiis voluptas error non rerum temporibus optio accusantium!</p> -->
+      </div>
+      </section>
       <section class="probootstrap-section">
         <div class="container">
           <div class="row">
