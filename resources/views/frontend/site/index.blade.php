@@ -234,11 +234,10 @@
                       <div class="owl-carousel" id="owl1">
                         <div class="item">
                           <a class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="{{asset ('img/img_sm_3.jpg')}}"  class="img-responsive"></figure>
+                            <figure class="probootstrap-media"><img src="{{asset ('img/img_sm_3.1.jpg')}}"  class="img-responsive"></figure>
                             <div class="probootstrap-text">
                               <h3>Visita al Conservatorio de Colorado springs en USA </h3>
-                              <p>Tuvimos una exitosa reunión con el patronato y la fundadora y directora del Conservatorio de Colorado Springs
-                                 para que nuestros alumnos puedan estuudiar los veranos en el Conservatory of Colorado Springs</p>
+                              <p></p>
                               <span class="probootstrap-date"><i class="icon-calendar"></i>April 18, 2019</span>
 
                             </div>
@@ -247,11 +246,10 @@
                         <!-- END item -->
                         <div class="item">
                           <a class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="{{asset ('img/img_sm_2.jpg')}}"   class="img-responsive"></figure>
+                            <figure class="probootstrap-media"><img src="{{asset ('img/img_sm_5.jpg')}}"   class="img-responsive"></figure>
                             <div class="probootstrap-text">
-                              <h3>Demostración</h3>
-                              <p>Durante nuestra visita al Colorado Springs Conservatory, una demostración de lo que hace la música, y lo que podrán lograr
-                                nuestros alumnos a través de esta colaboración y nuestro modelo único de educación. </p>
+                              <h3>Demostración en Conservatorio de Colorado springs en USA</h3>
+                              <p></p>
                               <span class="probootstrap-date"><i class="icon-calendar"></i>April 22, 2019</span>
 
                             </div>
