@@ -15,7 +15,7 @@ class PersonalController extends Controller
     $alumnos=\DB::table('personal')
           ->select('personal.*')
           ->get();
-      return view('frontend.dashboard.personals')
+      return view('frontend.dashboard.personal')
       ->with('Personal',$alumnos);;
   }
   public function store(Request $request){

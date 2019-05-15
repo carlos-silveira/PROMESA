@@ -37,7 +37,7 @@
 
 <!-- Agregar Alumno -->
 <h4>Aspirantes</h4>
-      <form class="" action="/portal/alumnos" method="post" enctype="multipart/form-data">
+      <form class="" action="/portal/aspirantes" method="post" enctype="multipart/form-data">
         @csrf
       <div class="form-row">
         <div class="col">
@@ -125,7 +125,17 @@
                         <td>{{ $a->codigo_de_curso}}</td>
                         <td>{{ $a->fecha_matricula}}</td>
                         <td>{{ $a->status}}</td>
+                        <td>
+                          <button type="button" class="btn btn-outline-primary btn-sm"name="button"> <i class="fas fa-edit"></i> </button>
+                          <form class="" action="{{url('/portal/alumnos',['codigo_de_curso'=>$a->codigo_de_curso])}}" method="post">
+  @csrf
+                            <input type="hidden" name="id" value="{{$a->codigo_de_curso}}">
+                            <input type="hidden" name="_method" value="delete">
 
+
+                      <button type="submit" class="btn btn-outline-danger btn-sm"name="button"> <i class="fas fa-trash"></i> </button>
+                          </form>
+                        </td>
                       </tr>
                       @endforeach
                   </tbody>

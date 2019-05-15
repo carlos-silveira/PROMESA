@@ -4,7 +4,8 @@ namespace App\Http\Controllers\Portal;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-
+use App\Models\Aspirante;
+use Validator;
 class AspirantesController extends Controller
 {
   public function __construct(){
@@ -24,7 +25,6 @@ class AspirantesController extends Controller
           'nombre'=>'required|max:255',
           'apellidos'=>'required|max:255',
           'direccion'=>'required|max:255',
-          'imagen'=>'required|file|max:1024',
           'fecha_de_nacimiento'=>'required|max:255',
           'sexo'=>'required|max:255',
           'tutor'=>'required|max:255',
@@ -39,25 +39,26 @@ class AspirantesController extends Controller
 
 
         //Insertar
-        $last_id= intval(Alumno::OrderBy('id','desc')->first()->id);
 
-        $alu=Alumno::create([
-          'n_matricula'=>'19CNC'.($last_id+1),
+
+        $alu=Aspirante::create([
           'nombre'=>$request->nombre,
           'apellidos'=>$request->apellidos,
-          'img'=>$image_name,
+          'direccion'=>$request->direccion,
           'fecha_de_nacimiento'=>$request->fecha_de_nacimiento,
           'sexo'=>$request->sexo,
           'tutor'=>$request->tutor,
-          'codigo_de_curso'=>$request->codigo_de_curso
+          'codigo_de_curso'=>$request->codigo_de_curso,
+          'fecha_matricula'=>'01/01/2001',
+          'status'=>'SN'
         ]);
         return back()
         ->with('Listo','Se ha insertado correctamente');
         }
     }
-    public function destroy($matricula){
-    $alumno=Alumno::find($matricula);
-  
+    public function destroy($codigo_de_ficha){
+    $alumno=Alumno::find($codigo_de_ficha);
+
       $alumno->delete();
       return back()
       ->with('Listo',"Se ha eliminado correctamente");
