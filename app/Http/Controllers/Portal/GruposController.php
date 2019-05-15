@@ -21,14 +21,9 @@ class GruposController extends Controller
   public function store(Request $request){
         $validator=Validator::make($request->all(),[
 
-          'nombre'=>'required|max:255',
-          'apellidos'=>'required|max:255',
-          'direccion'=>'required|max:255',
-          'imagen'=>'required|file|max:1024',
-          'fecha_de_nacimiento'=>'required|max:255',
-          'sexo'=>'required|max:255',
-          'tutor'=>'required|max:255',
-          'codigo_de_curso'=>'required|max:255',
+          'cod_grupo'=>'required|max:255',
+          'curso'=>'required|max:255',
+          'modalidad'=>'required|max:255',
 
         ]);
         if($validator->fails()){
@@ -42,14 +37,9 @@ class GruposController extends Controller
         $last_id= intval(Alumno::OrderBy('id','desc')->first()->id);
 
         $alu=Alumno::create([
-          'n_matricula'=>'19CNC'.($last_id+1),
-          'nombre'=>$request->nombre,
-          'apellidos'=>$request->apellidos,
-          'img'=>$image_name,
-          'fecha_de_nacimiento'=>$request->fecha_de_nacimiento,
-          'sexo'=>$request->sexo,
-          'tutor'=>$request->tutor,
-          'codigo_de_curso'=>$request->codigo_de_curso
+          'cod_grupo'=>'19CNC'.($last_id+1),
+          'curso'=>$request->curso,
+          'modalidad'=>$request->modalidad,
         ]);
         return back()
         ->with('Listo','Se ha insertado correctamente');
