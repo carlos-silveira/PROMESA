@@ -287,7 +287,7 @@
                   <!-- END row -->
                   <div class="row">
                     <div class="col-md-12 text-center">
-                      <p><a class="btn btn-primary">Ver todas las noticias</a></p>
+                      <p><a href="{{url('/news')}}" class="btn btn-primary">Ver todas las noticias</a></p>
                     </div>
                   </div>
                 </div>
@@ -435,21 +435,20 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
-              <h2>Conoce a nuestros docentes cualificados</h2>
-              <p class="lead">En cada curso se asigna un docente altamente especialisado para una mayor comprencion</p>
+              <h2>Fundadores del Colegio Nacional Cumbres</h2>
+              <!-- <p class="lead"></p> -->
             </div>
           </div>
           <!-- END row -->
-
           <div class="row">
             <div class="col-md-3 col-sm-6">
               <div class="probootstrap-teacher text-center probootstrap-animate">
                 <figure class="media">
-                  <img src="img/person_5.jpg"   class="img-responsive">
+                  <img src="img/logos.png"   class="img-responsive">
                 </figure>
                 <div class="text">
-                  <h3>Chris Worth</h3>
-                  <p>Physical Education</p>
+                  <h3>IVAN ORLANDO FIERRO GARCIA</h3>
+                  <p>Director General</p>
                   <!-- <ul class="probootstrap-footer-social">
                     <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
                     <li class="facebook"><a href="#"><i class="icon-facebook2"></i></a></li>
@@ -462,11 +461,11 @@
             <div class="col-md-3 col-sm-6">
               <div class="probootstrap-teacher text-center probootstrap-animate">
                 <figure class="media">
-                  <img src="img/person_5.jpg"   class="img-responsive">
+                  <img src="img/logos.png"   class="img-responsive">
                 </figure>
                 <div class="text">
-                  <h3>Janet Morris</h3>
-                  <p>English Teacher</p>
+                  <h3>THIARA IVETTE GARCIA DE ALBA</h3>
+                  <p>Dirección Académica</p>
                   <!-- <ul class="probootstrap-footer-social">
                     <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
                     <li class="facebook"><a href="#"><i class="icon-facebook2"></i></a></li>
@@ -480,28 +479,11 @@
             <div class="col-md-3 col-sm-6">
               <div class="probootstrap-teacher text-center probootstrap-animate">
                 <figure class="media">
-                  <img src="img/person_5.jpg"   class="img-responsive">
+                  <img src="img/logos.png"   class="img-responsive">
                 </figure>
                 <div class="text">
-                  <h3>Linda Reyez</h3>
-                  <p>Math Teacher</p>
-                  <!-- <ul class="probootstrap-footer-social">
-                    <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
-                    <li class="facebook"><a href="#"><i class="icon-facebook2"></i></a></li>
-                    <li class="instagram"><a href="#"><i class="icon-instagram2"></i></a></li>
-                    <li class="google-plus"><a href="#"><i class="icon-google-plus"></i></a></li>
-                  </ul> -->
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-              <div class="probootstrap-teacher text-center probootstrap-animate">
-                <figure class="media">
-                  <img src="img/person_5.jpg"   class="img-responsive">
-                </figure>
-                <div class="text">
-                  <h3>Jessa Sy</h3>
-                  <p>Physics Teacher</p>
+                  <h3>GUADALUPE TELLO LUEVANOS</h3>
+                  <p>Dirección Técnico Pedagógica</p>
                   <!-- <ul class="probootstrap-footer-social">
                     <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
                     <li class="facebook"><a href="#"><i class="icon-facebook2"></i></a></li>
@@ -512,8 +494,7 @@
               </div>
             </div>
           </div>
-
-        </div>
+         </div>
       </section>
       <section class="probootstrap-section probootstrap-bg probootstrap-section-colored probootstrap-testimonial" style="background-image: url(img/slider_4.jpg);">
         <div class="container">
@@ -531,7 +512,7 @@
 
                   <div class="probootstrap-testimony-wrap text-center">
                     <figure>
-                      <img src="img/person_5.jpg"  >
+                      <img src="img/logos.png"  >
                     </figure>
                     <blockquote class="quote">&ldquo;La institusion Cumbres a sido una de las mejores en la que e estado, ya que cuenta con un equipo de docentes altamente capacitados y unas instalaciones de calidad.&rdquo; <cite class="author"> &mdash; <span>Mike Fisher</span></cite></blockquote>
                   </div>
@@ -540,7 +521,7 @@
                 <div class="item">
                   <div class="probootstrap-testimony-wrap text-center">
                     <figure>
-                      <img src="img/person_5.jpg"  >
+                      <img src="img/logos.png"  >
                     </figure>
                     <blockquote class="quote">&ldquo;La institusion Cumbres a sido una de las mejores en la que e estado, ya que cuenta con un equipo de docentes altamente capacitados y unas instalaciones de calidad.&rdquo; <cite class="author"> &mdash;<span>Jorge Smith</span></cite></blockquote>
                   </div>
@@ -548,7 +529,7 @@
                 <div class="item">
                   <div class="probootstrap-testimony-wrap text-center">
                     <figure>
-                      <img src="img/person_5.jpg" >
+                      <img src="img/logos.png" >
                     </figure>
                     <blockquote class="quote">&ldquo;La institusion Cumbres a sido una de las mejores en la que e estado, ya que cuenta con un equipo de docentes altamente capacitados y unas instalaciones de calidad.&rdquo; <cite class="author">&mdash; <span>Brandon White</span></cite></blockquote>
                   </div>
