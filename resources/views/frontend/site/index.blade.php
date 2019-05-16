@@ -386,7 +386,7 @@
           </div>
           <!-- END row -->
           <div class="row">
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-4 col-sm-6">
               <div class="probootstrap-teacher text-center probootstrap-animate">
                 <figure class="media">
                   <img src="img/logos.png"   class="img-responsive">
@@ -403,7 +403,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-4 col-sm-6">
               <div class="probootstrap-teacher text-center probootstrap-animate">
                 <figure class="media">
                   <img src="img/logos.png"   class="img-responsive">
@@ -421,7 +421,7 @@
               </div>
             </div>
             <div class="clearfix visible-sm-block visible-xs-block"></div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-4 col-sm-6">
               <div class="probootstrap-teacher text-center probootstrap-animate">
                 <figure class="media">
                   <img src="img/logos.png"   class="img-responsive">
