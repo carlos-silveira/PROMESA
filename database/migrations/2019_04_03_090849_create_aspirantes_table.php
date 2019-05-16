@@ -22,7 +22,7 @@ class CreateAspirantesTable extends Migration
             $table->string('sexo');
             $table->string('tutor');
             $table->string('codigo_de_curso');
-            $table->string('fecha_matricula');
+            $table->string('fecha_de_preinscripcion');
             $table->string('status');
             $table->timestamps();
         });

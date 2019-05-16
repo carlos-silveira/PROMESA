@@ -4,6 +4,9 @@ namespace App\Http\Controllers\Portal;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Validator;
+use DB;
+use App\Models\Calificacion;
 
 class CalificacionesController extends Controller
 {
@@ -41,7 +44,7 @@ class CalificacionesController extends Controller
         //Insertar
         $last_id= intval(Alumno::OrderBy('id','desc')->first()->id);
 
-        $alu=Alumno::create([
+        $alu=Calificacion::create([
           'codigo_materia'=>'19CNC'.($last_id+1),
           'codigo_curso'=>$request->codigo_curso,
           'anio'=>$request->anio,
@@ -56,7 +59,7 @@ class CalificacionesController extends Controller
         }
     }
     public function destroy($matricula){
-    $alumno=Alumno::find($matricula);
+    $alumno=Calificacion::find($matricula);
 
       $alumno->delete();
       return back()

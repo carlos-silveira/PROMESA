@@ -10,6 +10,6 @@ protected $table ='aspirantes';
 protected $primaryKey ='codigo_de_ficha';
 protected $fillable = [
 'codigo_de_ficha','nombre','apellidos','direccion','fecha_de_nacimiento',
-'sexo'.'tutor'.'codigo_de_curso','fecha_matricula','status'
+'sexo','tutor','codigo_de_curso','fecha_de_preinscripcion','status'
 ];
 }

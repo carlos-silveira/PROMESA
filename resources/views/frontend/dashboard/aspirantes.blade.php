@@ -85,12 +85,12 @@
                       <td>{{ $a->sexo}}</td>
                       <td>{{ $a->tutor}}</td>
                       <td>{{ $a->codigo_de_curso}}</td>
-                      <td>{{ $a->fecha_matricula}}</td>
+                      <td>{{ $a->fecha_de_preinscripcion}}</td>
                       <td>{{ $a->status}}</td>
                       <td>
                           <button type="button" class="btn btn-outline-primary btn-sm"id="btnEditar"
                           data-toggle="modal" data-target="#editarModal"
-                           data-a-id="{{$a->id}}"
+                           data-a-id="{{$a->codigo_de_ficha}}"
                            data-nombre="{{$a->nombre}}"
                            data-apellidos="{{$a->apellidos}}"
                            data-direccion="{{$a->direccion}}"
@@ -101,9 +101,9 @@
                            data-pi="{{$a->fecha_de_preinscripcion}}"
                            data-status="{{$a->status}}"
                             > <i class="fas fa-edit"></i> </button>
-                          <form class="" action="{{url('/portal/aspirantes',['matricula'=>$a->matricula])}}" method="post">
+                          <form class="" action="{{url('/portal/aspirantes',['matricula'=>$a->codigo_de_ficha])}}" method="post">
                             @csrf
-                            <input type="hidden"  name="matricula" value="{{$a->matricula}}">
+                            <input type="hidden"  name="matricula" value="{{$a->codigo_de_ficha}}">
                             <input type="hidden" name="_method" value="delete">
 
 
@@ -166,7 +166,14 @@
     <label for="">Curso</label>
     <input required type="text" class="form-control" name="codigo_de_curso" placeholder="Curso" value="">
            </div>
-
+           <div class="form-group">
+           <label for="">Fecha de preinscripcion</label>
+           <input required type="date" class="form-control" name="fecha_de_preinscripcion" placeholder="fecha de preinscripcion" value="">
+           </div>
+           <div class="form-group">
+           <label for="">Estatus</label>
+           <input required type="text" class="form-control" name="status" placeholder="Estatus" value="">
+</div>
 
 
 
