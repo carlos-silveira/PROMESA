@@ -22,8 +22,8 @@
                   <p>Maestros altamente capacitados para las diferentes áreas que cuenta el colegio cumbres</p>
                   <!-- <p><a href="#" class="btn btn-primary">Learn More</a></p> -->
                 </div>
-                <div class="probootstrap-image probootstrap-animate" style="background-image: url({{asset ('img/img-v1-1.jpg')}})">
-                  <a href="https://vimeo.com/45830194" class="btn-video popup-vimeo"><i class="icon-play3"></i></a>
+                <div class="probootstrap-image probootstrap-animate" style="background-image: url({{asset ('img/img-s1-1.jpg')}})">
+                  <a href="https://www.youtube.com/watch?v=a25SUixKCbM" class="btn-video popup-vimeo"><i class="icon-play3"></i></a>
                 </div>
               </div>
             </div>
