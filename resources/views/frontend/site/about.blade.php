@@ -90,8 +90,14 @@
                   <img src="img/logos.png"   class="img-responsive">
                 </figure>
                 <div class="text">
-                  <h3>Chris Worth</h3>
-                  <p>Physical Education</p>
+                  <h3>IVAN ORLANDO FIERRO GARCIA</h3>
+                  <p>Director General</p>
+                  <p>Licenciado en Educación por la Universidad Pedagógica Nacional; y Licenciado en Artes
+                    con especialidad en Danza Regional Mexicana por la Escuela de la Danza Mexicana “Jaime
+                    Buentello Bazan” en la ciudad de Tepic en Nayarit; además ser maestrante en Estrategia
+                    Educativa en la Universidad Regional del Norte; cuenta también con examen de certificación
+                    del Idioma Ingles. Ha trabajado en la Docencia por más de 15 años; desempeñándose como
+                    titular de grupo en nivel primaria, como docente en nivel de secundaria y preparatoria.</p>
                   <!-- <ul class="probootstrap-footer-social">
                     <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
                     <li class="facebook"><a href="#"><i class="icon-facebook2"></i></a></li>
@@ -107,8 +113,11 @@
                   <img src="img/logos.png"   class="img-responsive">
                 </figure>
                 <div class="text">
-                  <h3>Janet Morris</h3>
-                  <p>English Teacher</p>
+                  <h3>THIARA IVETTE GARCIA DE ALBA</h3>
+                  <p>Dirección Académica</p>
+                  <p>Egresada de la Universidad Autónoma de Ciudad Juárez; quien curso estudios de educación
+                     básica en Estados Unidos y Canadá; se ha desempeñado como docente por 10 años como
+                     maestra bilingüe con más de 10 años de experiencia.</p>
                   <!-- <ul class="probootstrap-footer-social">
                     <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
                     <li class="facebook"><a href="#"><i class="icon-facebook2"></i></a></li>
@@ -125,8 +134,12 @@
                   <img src="img/logos.png"   class="img-responsive">
                 </figure>
                 <div class="text">
-                  <h3>Linda Reyez</h3>
-                  <p>Math Teacher</p>
+                  <h3>GUADALUPE TELLO LUEVANOS</h3>
+                  <p>Dirección Técnico Pedagógica</p>
+                  <p>Maestra pensionada del sistema de educación pública y ha fungido como directora en educación
+                    primaria en colegio privado, además de ser asesora para distintos colegios de educación preescolar,
+                    primaria, secundaria y preparatoria. Con una trayectoria de más de 35 años en la docencia y
+                    preparación y formación de docentes. </p>
                   <!-- <ul class="probootstrap-footer-social">
                     <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
                     <li class="facebook"><a href="#"><i class="icon-facebook2"></i></a></li>
@@ -136,23 +149,6 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3 col-sm-6">
-              <div class="probootstrap-teacher text-center probootstrap-animate">
-                <figure class="media">
-                  <img src="img/logos.png"   class="img-responsive">
-                </figure>
-                <div class="text">
-                  <h3>Jessa Sy</h3>
-                  <p>Physics Teacher</p>
-                  <!-- <ul class="probootstrap-footer-social">
-                    <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
-                    <li class="facebook"><a href="#"><i class="icon-facebook2"></i></a></li>
-                    <li class="instagram"><a href="#"><i class="icon-instagram2"></i></a></li>
-                    <li class="google-plus"><a href="#"><i class="icon-google-plus"></i></a></li>
-                  </ul> -->
-                </div>
-              </div>
-           </div>
           </div>
          </div>
       </section>
