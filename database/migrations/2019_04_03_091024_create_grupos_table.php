@@ -17,6 +17,7 @@ class CreateGruposTable extends Migration
             $table->increments('codigo_de_curso');
             $table->string('curso');
             $table->integer('modalidad');
+            $table->timestamps();
         });
     }
 

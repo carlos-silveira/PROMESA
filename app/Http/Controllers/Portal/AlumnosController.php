@@ -5,8 +5,9 @@ namespace App\Http\Controllers\Portal;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Validator;
-use App\Alumno;
-
+use DB;
+use App\Models\Alumno;
+$table_name='alumnos';
 class AlumnosController extends Controller
 {
   public function __construct(){
@@ -20,6 +21,14 @@ class AlumnosController extends Controller
       return view('frontend.dashboard.alumnos')
       ->with('Alumnos',$alumnos);;
   }
+
+
+public function cleanup($table_name)
+{
+    DB::statement("SET @count = 0;");
+    DB::statement("UPDATE `$table_name` SET `$table_name`.`id` = @count:= @count + 1;");
+    DB::statement("ALTER TABLE `$table_name` AUTO_INCREMENT = 1;");
+}
   public function store(Request $request){
         $validator=Validator::make($request->all(),[
 
@@ -38,36 +47,47 @@ class AlumnosController extends Controller
           ->withInput()
           ->withErrors($validator);
         }else {
+          if(!empty(Alumno::OrderBy('id','desc')->first()->id)){
+              self::cleanup('alumnos');
+            $pre_last_id=intval(Alumno::OrderBy('id','desc')->first()->id);
+            $mat = date('y').'CNC' . str_pad($pre_last_id + 1, 3, 0, STR_PAD_LEFT);
+
+          }else{
+            $mat='19CNC001';
+            self::cleanup('alumnos');
+          }
+
           $imagen= $request->file("imagen");
-          $image_name=time().'.'.$imagen->getClientOriginalExtension();
+          $image_name=$mat.'.'.$imagen->getClientOriginalExtension();
           $destino= public_path('/img/alumnos');
           $request->imagen->move($destino,$image_name);
 
         //Insertar
-        $last_id= intval(Alumno::OrderBy('id','desc')->first()->id);
+
 
         $alu=Alumno::create([
-          'n_matricula'=>'19CNC'.($last_id+1),
+          'matricula'=>$mat,
           'nombre'=>$request->nombre,
           'apellidos'=>$request->apellidos,
-          'img'=>$image_name,
+          'direccion'=>$request->direccion,
+          'imagen'=>$image_name,
           'fecha_de_nacimiento'=>$request->fecha_de_nacimiento,
           'sexo'=>$request->sexo,
           'tutor'=>$request->tutor,
           'codigo_de_curso'=>$request->codigo_de_curso
         ]);
         return back()
-        ->with('Listo','Se ha insertado correctamente');
+        ->with('Listo','Se ha insertado correctamente '.$alu->matricula);
         }
     }
-    public function destroy($matricula){
-    $alumno=Alumno::find($matricula);
-    if(file_exists(public_path('/img/alumnos')."/".$alumno->img)){
-      unlink(public_path('/img/alumnos')."/".$alumno->img);
+    public function destroy($id){
+  $alumno = Alumno::find($id);
+    if(file_exists(public_path('/img/alumnos')."/".$alumno->imagen)){
+      unlink(public_path('/img/alumnos')."/".$alumno->imagen);
     }
       $alumno->delete();
       return back()
-      ->with('Listo',"Se ha eliminado correctamente");
+      ->with('Listo',"Se ha eliminado correctamente ".$alumno->nombre);
     }
 
 }

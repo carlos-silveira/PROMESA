@@ -11,18 +11,21 @@ class CreateAlumnosTable extends Migration
      *
      * @return void
      */
+     public $primarykey='matricula';
     public function up()
     {
         Schema::create('alumnos', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('n_matricula');
+            $table->string('matricula')->unique();
             $table->string('nombre');
             $table->string('apellidos');
+            $table->string('imagen');
             $table->string('direccion');
             $table->string('fecha_de_nacimiento');
             $table->string('sexo');
             $table->string('tutor');
-            $table->string('codigo_de_curso');
+            $table->string('codigo_de_curso')->nullable();
+            $table->timestamps();
         });
     }
 

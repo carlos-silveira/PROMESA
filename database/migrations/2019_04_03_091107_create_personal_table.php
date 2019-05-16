@@ -24,6 +24,7 @@ class CreatePersonalTable extends Migration
             $table->string('fecha_de_inicio');
             $table->string('antiguedad');
             $table->string('curp');
+            $table->timestamps();
         });
     }
 

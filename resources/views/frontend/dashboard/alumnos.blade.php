@@ -20,15 +20,11 @@
   </button>
 </div>
 @endif
+
 @if($message=Session::get('Listo'))
 <div class="alert alert-success alert-dismissible fade show" role="alert">
 <h5>Todo bien:</h5>
-<ul>
-  @foreach($errors->all() as $error)
-  <li>{{$error}}</li>
-  @endforeach
-
-</ul>
+{{session()->get('Listo')}}
 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
   <span aria-hidden="true">&times;</span>
 </button>
@@ -63,8 +59,8 @@
         <div class="col">
           <label for="">Sexo</label>
           <select class="form-control" name="sexo">
-            <option value="masculino">Masculino</option>
-            <option value="femenino">Femenino</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
           </select>
         </div>
         <div class="col">
@@ -118,7 +114,7 @@
                   <tbody>
                       @foreach ($Alumnos as $a)
                       <tr>
-                        <td>{{ $a->n_matricula}}</td>
+                        <td>{{ $a->matricula}}</td>
                         <td>{{ $a->nombre}}</td>
                         <td>{{ $a->apellidos}}</td>
                       <td>imagen</td>
@@ -128,9 +124,9 @@
                         <td>{{ $a->codigo_de_curso}}</td>
                         <td>
                           <button type="button" class="btn btn-outline-primary btn-sm"name="button"> <i class="fas fa-edit"></i> </button>
-                          <form class="" action="{{url('/portal/alumnos',['id'=>$a->id])}}" method="post">
-  @csrf
-                            <input type="hidden" name="id" value="{{$a->n_matricula}}">
+                          <form class="" action="{{url('/portal/alumnos',['matricula'=>$a->matricula])}}" method="post">
+                            @csrf
+                            <input type="hidden" name="matricula" value="{{$a->matricula}}">
                             <input type="hidden" name="_method" value="delete">
 
 

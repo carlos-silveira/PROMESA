@@ -18,6 +18,7 @@ class CreateMateriasTable extends Migration
             $table->string('materia');
             $table->string('codigo_curso');
             $table->string('codigo_maestro');
+            $table->timestamps();
         });
     }
 

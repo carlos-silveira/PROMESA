@@ -24,6 +24,7 @@ class CreateAspirantesTable extends Migration
             $table->string('codigo_de_curso');
             $table->string('fecha_matricula');
             $table->string('status');
+            $table->timestamps();
         });
     }
 

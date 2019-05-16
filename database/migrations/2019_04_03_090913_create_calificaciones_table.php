@@ -22,6 +22,7 @@ class CreateCalificacionesTable extends Migration
           $table->integer('p3');
           $table->integer('p4');
           $table->integer('promedio');
+          $table->timestamps();
         });
     }
 
