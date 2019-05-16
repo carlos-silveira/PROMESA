@@ -51,6 +51,7 @@ Route::group(['prefix' => 'portal', 'as' => 'portal'], function() {
   Route::get('/alumnos', 'Portal\AlumnosController@index');
   Route::delete('/alumnos/{id}', 'Portal\AlumnosController@destroy');
   Route::post('/alumnos', 'Portal\AlumnosController@store');
+  Route::post('/alumnos/update', 'Portal\AlumnosController@update');
   Route::get('/aspirantes', 'Portal\AspirantesController@index');
   Route::delete('/aspirantes/{codigo_de_curso}', 'Portal\AspirantesController@destroy');
   Route::post('/aspirantes', 'Portal\AspirantesController@store');
