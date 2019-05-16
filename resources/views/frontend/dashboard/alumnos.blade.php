@@ -76,7 +76,7 @@
                         <td>{{ $a->matricula}}</td>
                         <td>{{ $a->nombre}}</td>
                         <td>{{ $a->apellidos}}</td>
-                      <td>imagen</td>
+                      <td> <img src="{{ asset('/img/alumnos/'.$a->imagen)}}" style="width:80px;height:80px;" alt=""> </td>
                         <td>{{ $a->fecha_de_nacimiento}}</td>
                         <td>{{ $a->sexo}}</td>
                         <td>{{ $a->tutor}}</td>
@@ -255,7 +255,6 @@
 <script type="text/javascript" src="{{ asset('/vendor/datatables/jquery.dataTables.min.js')}}"></script>
 <script type="text/javascript" src="{{ asset('/vendor/datatables/dataTables.bootstrap4.min.js')}}"></script>
 <script type="text/javascript" src="{{ asset('/js/demo/datatables-demo.js')}}"></script>
-<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 <script type="text/javascript">
 $('#editarModal').on('show.bs.modal', function(e) {
 
