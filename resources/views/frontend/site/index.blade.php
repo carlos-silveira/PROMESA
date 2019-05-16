@@ -260,27 +260,16 @@
                           <a class="probootstrap-featured-news-box">
                             <figure class="probootstrap-media"><img src="{{asset ('img/img_sm_4.jpg')}}"  class="img-responsive"></figure>
                             <div class="probootstrap-text">
-                              <h3>Primer lugar en tenis</h3>
-                              <p>El equipo de tenis logro ganar el primer lugar en el torneo de verano</p>
-                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
+                              <h3>Veranos en Conservatory of Colorado Springs</h3>
+                              <p></p>
+                              <span class="probootstrap-date"><i class="icon-calendar"></i>April 18, 2019</span>
 
                             </div>
                           </a>
                         </div>
                         <!-- END item -->
-                        <div class="item">
-                          <a class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="{{asset ('img/img_sm_3.jpg')}}"   class="img-responsive"></figure>
-                            <div class="probootstrap-text">
-                              <h3>Primer lugar en futbol</h3>
-                              <p>El equipo de futbol logro ganar el primer lugar en el torneo de verano </p>
-                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
 
 
-                            </div>
-                          </a>
-                        </div>
-                        <!-- END item -->
                       </div>
                     </div>
                   </div>
@@ -291,53 +280,7 @@
                     </div>
                   </div>
                 </div>
-                <div id="upcoming-events" class="tab-pane fade">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="owl-carousel" id="owl2">
-                        <div class="item">
-                          <a class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="{{asset ('img/img_sm_3.jpg')}}"  class="img-responsive"></figure>
-                            <div class="probootstrap-text">
-                              <h3>Temporada de basquetbol </h3>
-                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
-                              <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
-                            </div>
-                          </a>
-                        </div>
-                        <!-- END item -->
-                        <div class="item">
-                          <a class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="{{asset ('img/img_sm_3.jpg')}}"   class="img-responsive"></figure>
-                            <div class="probootstrap-text">
-                              <h3>Temporada de futbol</h3>
-                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
-                              <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
-                            </div>
-                          </a>
-                        </div>
-                        <!-- END item -->
-                        <div class="item">
-                          <a class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="{{asset ('img/img_sm_3.jpg')}}"   class="img-responsive"></figure>
-                            <div class="probootstrap-text">
-                              <h3>Temporada de tenis</h3>
-                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
-                              <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
-                            </div>
-                          </a>
-                        </div>
-                        <!-- END item -->
-                        <div class="item">
-                          <a  class="probootstrap-featured-news-box">
-                            <figure class="probootstrap-media"><img src="{{asset ('img/img_sm_3.jpg')}}"   class="img-responsive"></figure>
-                            <div class="probootstrap-text">
-                              <h3>Temporada de atletismo</h3>
-                              <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
-                              <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
-                            </div>
-                          </a>
-                        </div>
+
                         <!-- END item -->
                       </div>
                     </div>
@@ -366,68 +309,70 @@
           </div>
           <!-- END row -->
           <div class="row">
+
             <div class="col-md-6">
-              <div class="probootstrap-service-2 probootstrap-animate">
+              <div class="probootstrap-service-2 probootstrap-animate"style="height: 224px;">
                 <div class="image">
                   <div class="image-bg">
-                    <img src="{{asset ('img/img_sm_3.jpg')}}">
+                    <img src="{{asset ('img/img_curso1.jpg')}}">
                   </div>
                 </div>
                 <div class="text">
-                  <span class="probootstrap-meta"><i class="icon-calendar2"></i> July 10, 2017</span>
-                  <h3>Diseño de aplicaciónes</h3>
-                  <p>En este curso se visualizará todo lo necesario para poder realizar diseños de aplicaciones </p>
+                  <h3>Fúlbol</h3>
+                  <p>Curso que tiene por objetivo dirigir un trabajo Técnico, pero sin ignorar la naturaleza del niño que es divertirse y jugar por intermedio de esta disciplina</p>
                   <!-- <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">2,928 students enrolled</span></p> -->
+
                 </div>
               </div>
 
-              <div class="probootstrap-service-2 probootstrap-animate">
+              <div class="probootstrap-service-2 probootstrap-animate" style="height: 224px;">
                 <div class="image">
                   <div class="image-bg">
-                    <img src="{{asset ('img/img_sm_3.jpg')}}">
+                    <img src="{{asset ('img/img_curso2.jpg')}}">
                   </div>
                 </div>
                 <div class="text">
-                  <span class="probootstrap-meta"><i class="icon-calendar2"></i> July 10, 2017</span>
-                  <h3>Ingeniería Química</h3>
-                  <p>En este curso se visualizará todo lo necesario para poder entender la química y sus derivados</p>
+                  <h3>Básquelbol</h3>
+                  <p>Curso aborda el básquetbol desde un enfoque formativo, orientado a la iniciación en escolares de nivel básico</p>
                   <!-- <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">7,202 students enrolled</span></p> -->
                 </div>
               </div>
 
             </div>
+
             <div class="col-md-6">
-              <div class="probootstrap-service-2 probootstrap-animate">
+              <div class="probootstrap-service-2 probootstrap-animate" style="height: 224px;">
                 <div class="image">
                   <div class="image-bg">
-                    <img src="{{asset ('img/img_sm_3.jpg')}}">
+                    <img src="{{asset ('img/img_curso3.jpg')}}">
                   </div>
                 </div>
                 <div class="text">
-                  <span class="probootstrap-meta"><i class="icon-calendar2"></i> July 10, 2017</span>
-                  <h3>Arte</h3>
-                  <p>En este curso se visualizará todo lo necesario para poder desarrollar tus habilidades artisticas</p>
+                  <h3>Idioma</h3>
+                  <p>Nuestros alumnos se forman en el idioma inglés con otras materias a demás de su materia en el idioma</p>
                   <!-- <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">12,582 students enrolled</span></p> -->
                 </div>
               </div>
 
-              <div class="probootstrap-service-2 probootstrap-animate">
+              <div class="probootstrap-service-2 probootstrap-animate"style="height: 224px;">
                 <div class="image">
                   <div class="image-bg">
-                    <img src="{{asset ('img/img_sm_3.jpg')}}">
+                    <img src="{{asset ('img/img_curso4.jpg')}}">
                   </div>
                 </div>
                 <div class="text">
-                  <span class="probootstrap-meta"><i class="icon-calendar2"></i> July 10, 2017</span>
-                  <h3>Musica</h3>
-                  <p>En este curso se visualisara todo lo necesario para desarrollar tus habilidades musicales</p>
+                  <h3>Computación</h3>
+                  <p> Entregar las herramientas y habilidades necesarias para que el alumno sea autosuficiente en la utilización de Internet, con una breve reseña histórica además</p>
                   <!-- <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">9,582 students enrolled</span></p> -->
                 </div>
               </div>
 
+
+
             </div>
           </div>
         </div>
+
       </section>
 
 

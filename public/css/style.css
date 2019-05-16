@@ -1816,16 +1816,24 @@ border-width: thick;*/
 }
 
 .probootstrap-service-2 .image .image-bg img {
-  min-width: 100%;
-  min-height: 100%;
+
+  min-width: 30%;
+  min-height: 30%;
 }
 
 .probootstrap-service-2 .text {
+  font-size: 16px;
+  transition: 0.3s;
   padding: 20px;
+}
+.probootstrap-service-2 .text:hover {
+  background-color: #B49D5F;
+  color: white;
+
 }
 
 .probootstrap-service-2 .text h3 {
-  font-size: 20px;
+  font-size: 25px;
   margin: 0;
 }
 
