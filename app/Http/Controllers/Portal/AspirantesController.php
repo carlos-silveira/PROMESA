@@ -29,6 +29,8 @@ class AspirantesController extends Controller
           'sexo'=>'required|max:255',
           'tutor'=>'required|max:255',
           'codigo_de_curso'=>'required|max:255',
+          'fecha_de_preinscripcion'=>'required|max:255',
+          'status'=>'required|max:255',
 
         ]);
         if($validator->fails()){
