@@ -39,14 +39,14 @@
               <figcaption itemprop="caption description">Image caption here</figcaption>
             </figure>
           <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="grid-item probootstrap-animate">
-              <a href="{{asset ('img/img-s1-1.jpg')}}" itemprop="contentUrl" data-size="1000x667">
-                <img src="{{asset ('img/img-s1-1.jpg')}}" itemprop="thumbnail" alt="Free Bootstrap Template by uicookies.com" />
+              <a href="{{asset ('img/img_sm_3.1.jpg')}}" itemprop="contentUrl" data-size="1000x667">
+                <img src="{{asset ('img/img_sm_3.1.jpg')}}" itemprop="thumbnail" alt="Free Bootstrap Template by uicookies.com" />
             </a>
             <figcaption itemprop="caption description">Image caption here</figcaption>
           </figure>
           <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="grid-item probootstrap-animate">
-            <a href="{{asset ('img/img-s1-2.jpg')}}" itemprop="contentUrl" data-size="1000x632">
-              <img src="{{asset ('img/img-s1-2.jpg')}}" itemprop="thumbnail" alt="Free Bootstrap Template by uicookies.com" />
+            <a href="{{asset ('img/img_sm_5.jpg')}}" itemprop="contentUrl" data-size="1000x632">
+              <img src="{{asset ('img/img_sm_5.jpg')}}" itemprop="thumbnail" alt="Free Bootstrap Template by uicookies.com" />
             </a>
             <figcaption itemprop="caption description">Image caption here</figcaption>
           </figure>

@@ -25,7 +25,7 @@
                   <!-- <p><a href="#" class="btn btn-primary">Learn More</a></p> -->
                 </div>
                 <div class="probootstrap-image probootstrap-animate" style="background-image: url({{asset ('img/img-s1-1.jpg')}})">
-                  <a href="https://vimeo.com/45830194" class="btn-video popup-vimeo"><i class="icon-play3"></i></a>
+                  <a href="https://www.youtube.com/watch?v=zDoEH4GfjxA" class="btn-video popup-vimeo"><i class="icon-play3"></i></a>
                 </div>
               </div>
             </div>
@@ -34,8 +34,7 @@
       </section>
 
       <section class="probootstrap-section">
-        <div class="container">
-
+      <div class="container">
           <div class="col-md-6">
             <p>
               <img src="{{asset ('img/img-s1-2.jpg')}}" alt="Free Bootstrap Template by uicookes.com" class="img-responsive">
@@ -48,97 +47,114 @@
                para así formar personas con un futuro brillante y con un potencial para cualquier trabajo.</p>
             <!-- <p>Quis explicabo veniam labore ratione illo vero voluptate a deserunt incidunt odio aliquam commodi blanditiis voluptas error non rerum temporibus optio accusantium!</p> -->
           </div>
-
-
-        </div>
+      </div>
       </section>
       <section>
 
       </section>
-      <div class="col-md-3 col-md-push-1" ><id="about">
-        <h2>Misión</h2>
-        <p>Generar condiciones y espacios para formar una comunidad estudiantil
-           moralmente responsable en distintas áreas de conocimiento, deporte, artes y desarrollo humano.<p></div>
-      <div class="col-md-4 col-md-push-1",  style="text-align: center; left: 144px;"><id="about">
-        <h2>Objetivo de desarrollo misional y General</h2>
-        <p>Colegio cumbres cuenta excelentes docentes capacitados
-           para el desarrollo de los conocimientos de nuestros alumnos,
-           para así formar personas con un futuro brillante y con un potencial para cualquier trabajo.</p>
-        <!-- <p>Quis explicabo veniam labore ratione illo vero voluptate a deserunt incidunt odio aliquam commodi blanditiis voluptas error non rerum temporibus optio accusantium!</p> -->
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
+          <h2>Misión</h2>
+          <p>Generar condiciones y espacios para formar una comunidad estudiantil moralmente responsable en distintas áreas de conocimiento, deporte, artes y desarrollo humano.<p>
+        </div>
       </div>
-      <div class="col-md-3 col-md-push-2"><id="about">
-        <h2>Visión</h2>
-        <p>Generar ciudadanos moralmente responsables, y elevar el desarrollo humano en muchos jóvenes y adolescentes de NCG</p>
-        <!-- <p>Quis explicabo veniam labore ratione illo vero voluptate a deserunt incidunt odio aliquam commodi blanditiis voluptas error non rerum temporibus optio accusantium!</p> -->
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
+          <h2>Visión</h2>
+          <p>Generar ciudadanos moralmente responsables, y elevar el desarrollo humano en muchos jóvenes y adolescentes de NCG</p>
+          <!-- <p>Quis explicabo veniam labore ratione illo vero voluptate a deserunt incidunt odio aliquam commodi blanditiis voluptas error non rerum temporibus optio accusantium!</p> -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
+          <h2>Objetivo de desarrollo misional y General</h2>
+          <p>Colegio cumbres cuenta excelentes docentes capacitados para el desarrollo de los conocimientos de nuestros alumnos, para así formar personas con un futuro brillante y con un potencial para cualquier trabajo.</p>
+            <!-- <p>Quis explicabo veniam labore ratione illo vero voluptate a deserunt incidunt odio aliquam commodi blanditiis voluptas error non rerum temporibus optio accusantium!</p> -->
+        </div>
       </div>
       </section>
-      <section class="probootstrap-section">
+
+      <section id="S-teachers" class="probootstrap-section">
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
-              <h2>¿Por qué elegir Cumbres?</h2>
-              <p class="lead">Cumbres es una institución que se preocupa por sus alumnos</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="service left-icon probootstrap-animate">
-                <div class="icon"><i class="icon-checkmark"></i></div>
-                <div class="text">
-                  <h3>Docentes Altamente Capacitados</h3>
-                  <p>Los docentes que imparten clases en Cumbres cuentan con
-                    certificados de especialidad valorados a nivel internacional</p>
-                </div>
-              </div>
-              <div class="service left-icon probootstrap-animate">
-                <div class="icon"><i class="icon-checkmark"></i></div>
-                <div class="text">
-                  <h3>Instalaciones de Calidad</h3>
-                  <p>Las instalaciones de Cumbres cuentan con equipamiento
-                     especializado y con limpieza de alta calidad</p>
-                </div>
-              </div>
-              <div class="service left-icon probootstrap-animate">
-                <div class="icon"><i class="icon-checkmark"></i></div>
-                <div class="text">
-                  <h3>Cursos</h3>
-                  <p>Cumbres cuenta con cursos de calidad para un mayor desarrollo de las habilidades</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="service left-icon probootstrap-animate">
-                <div class="icon"><i class="icon-checkmark"></i></div>
-                <div class="text">
-                  <h3>Actividades Recreativas</h3>
-                  <p>Se cuenta con equipos de futbol, basquetbol,
-                     tenis, atletismo, música, arte, danza, entre otras actividades.</p>
-                </div>
-              </div>
-
-              <div class="service left-icon probootstrap-animate">
-                <div class="icon"><i class="icon-checkmark"></i></div>
-                <div class="text">
-                  <h3>Localización</h3>
-                  <p>La institución está ubicada en un punto estratégico
-                     para la tranquilidad de los padres de familia</p>
-                </div>
-              </div>
-
-              <div class="service left-icon probootstrap-animate">
-                <div class="icon"><i class="icon-checkmark"></i></div>
-                <div class="text">
-                  <h3>Seguridad</h3>
-                  <p>Se cuenta con personal encargado de verificar
-                     el acceso de personal para que los alumnos estén siempre seguros para tranquilidad de los padres</p>
-                </div>
-              </div>
-
+              <h2>Fundadores del Colegio Nacional Cumbres</h2>
+              <!-- <p class="lead"></p> -->
             </div>
           </div>
           <!-- END row -->
-        </div>
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div class="probootstrap-teacher text-center probootstrap-animate">
+                <figure class="media">
+                  <img src="img/logos.png"   class="img-responsive">
+                </figure>
+                <div class="text">
+                  <h3>Chris Worth</h3>
+                  <p>Physical Education</p>
+                  <!-- <ul class="probootstrap-footer-social">
+                    <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
+                    <li class="facebook"><a href="#"><i class="icon-facebook2"></i></a></li>
+                    <li class="instagram"><a href="#"><i class="icon-instagram2"></i></a></li>
+                    <li class="google-plus"><a href="#"><i class="icon-google-plus"></i></a></li>
+                  </ul> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="probootstrap-teacher text-center probootstrap-animate">
+                <figure class="media">
+                  <img src="img/logos.png"   class="img-responsive">
+                </figure>
+                <div class="text">
+                  <h3>Janet Morris</h3>
+                  <p>English Teacher</p>
+                  <!-- <ul class="probootstrap-footer-social">
+                    <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
+                    <li class="facebook"><a href="#"><i class="icon-facebook2"></i></a></li>
+                    <li class="instagram"><a href="#"><i class="icon-instagram2"></i></a></li>
+                    <li class="google-plus"><a href="#"><i class="icon-google-plus"></i></a></li>
+                  </ul> -->
+                </div>
+              </div>
+            </div>
+            <div class="clearfix visible-sm-block visible-xs-block"></div>
+            <div class="col-md-3 col-sm-6">
+              <div class="probootstrap-teacher text-center probootstrap-animate">
+                <figure class="media">
+                  <img src="img/logos.png"   class="img-responsive">
+                </figure>
+                <div class="text">
+                  <h3>Linda Reyez</h3>
+                  <p>Math Teacher</p>
+                  <!-- <ul class="probootstrap-footer-social">
+                    <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
+                    <li class="facebook"><a href="#"><i class="icon-facebook2"></i></a></li>
+                    <li class="instagram"><a href="#"><i class="icon-instagram2"></i></a></li>
+                    <li class="google-plus"><a href="#"><i class="icon-google-plus"></i></a></li>
+                  </ul> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="probootstrap-teacher text-center probootstrap-animate">
+                <figure class="media">
+                  <img src="img/logos.png"   class="img-responsive">
+                </figure>
+                <div class="text">
+                  <h3>Jessa Sy</h3>
+                  <p>Physics Teacher</p>
+                  <!-- <ul class="probootstrap-footer-social">
+                    <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
+                    <li class="facebook"><a href="#"><i class="icon-facebook2"></i></a></li>
+                    <li class="instagram"><a href="#"><i class="icon-instagram2"></i></a></li>
+                    <li class="google-plus"><a href="#"><i class="icon-google-plus"></i></a></li>
+                  </ul> -->
+                </div>
+              </div>
+           </div>
+          </div>
+         </div>
       </section>
-
     </div>
 @endsection

@@ -6,7 +6,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-left section-heading probootstrap-animate">
-              <h1>Eventos escolares</h1>
+              <h1>Eventos</h1>
             </div>
           </div>
         </div>
@@ -28,8 +28,8 @@
                   </p>
                   <p><a href="#" class="btn btn-primary">Learn More</a></p> -->
                 </div>
-                <div class="probootstrap-image probootstrap-animate" style="background-image: url({{asset ('img/img-de-4.jpg')}})">
-                  <a href="https://vimeo.com/45830194" class="btn-video popup-vimeo"><i class="icon-play3"></i></a>
+                <div class="probootstrap-image probootstrap-animate" style="background-image: url({{asset ('img/img_sm_5.jpg')}})">
+                  <a href="https://www.youtube.com/watch?v=zDoEH4GfjxA" class="btn-video popup-vimeo"><i class="icon-play3"></i></a>
                 </div>
               </div>
             </div>
@@ -39,40 +39,31 @@
 
       <section class="probootstrap-section">
         <div class="container">
-
           <div class="row">
             <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
-              <a href="#" class="probootstrap-featured-news-box">
-                <figure class="probootstrap-media"><img src="{{asset ('img/img-de-1.jpg')}}" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
+              <a  class="probootstrap-featured-news-box">
+                <figure class="probootstrap-media"><img src="{{asset ('img/img_sm_3.1.jpg')}}" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
                 <div class="probootstrap-text">
-                  <h3>Temporada de basquetbol</h3>
-                  <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
-                  <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
+                  <h3>Visita al Conservatorio De Colorado Springs En USA</h3>
+                  <p>Colegio Nacional Cumbres tiene un compromiso real con laComunidad y sus estudiantes, tuvimos una exitosa reunión con el patronato y la fundadora y directora del Conservatorio De Colorado Springs para que nuestros alumnos puedan estudiar los veranos en el Conservatory Of Colorado Springs </p>
+                  <span class="probootstrap-date"><i class="icon-calendar"></i>April 18, 2019</span>
+                  <!-- <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span> -->
                 </div>
               </a>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
-              <a href="#" class="probootstrap-featured-news-box">
-                <figure class="probootstrap-media"><img src="{{asset ('img/img-de-2.jpg')}}" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
+              <a  class="probootstrap-featured-news-box">
+                <figure class="probootstrap-media"><img src="{{asset ('img/img_sm_5.jpg')}}" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
                 <div class="probootstrap-text">
-                  <h3>Temporada de futbol</h3>
+                  <h3>Demostración En Conservatorio De Colorado Springs En USA</h3>
+                  <p>Durante nuestra visita al Colorado Springs Conservatory, una demostración de lo que hace la música, y lo que podrán lograr nuestros alumnos a través de esta colaboración y nuestro modelo único de educación.</p>
                   <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
-                  <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
+                  <!-- <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span> -->
                 </div>
               </a>
             </div>
             <div class="clearfix visible-sm-block visible-xs-block"></div>
-            <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
-              <a href="#" class="probootstrap-featured-news-box">
-                <figure class="probootstrap-media"><img src="{{asset ('img/img-de-3.jpg')}}" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
-                <div class="probootstrap-text">
-                  <h3>Temporada de tenis</h3>
-                  <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
-                  <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
-                </div>
-              </a>
-            </div>
-
+            
             <div class="clearfix visible-md-block"></div>
 
             <!-- <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
