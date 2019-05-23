@@ -1,3 +1,9 @@
+
+<p align="center"><img src="https://i.imgur.com/XpdCrLG.jpg" width="340" height="340" alt="Build Status"></p>
+
+
+## Description
+A web project for an educational institution to see and manage their students, teachers and their workforce. Made in Lavarel Framework with Bootstrap.
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
